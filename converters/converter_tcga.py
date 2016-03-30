@@ -2,7 +2,7 @@
 '''
 Author: Malisa Smith smimal@ohsu.edu 03-29-2016
 This program converts TCGA pan cancer maf files and patient summary information into
-JSON-encoded protobuf data based on the everything_2016-03-28.proto schema.
+JSON-encoded protobuf data based on the simple_schema.proto schema.
 '''
 
 import simple_schema_pb2 as schema
@@ -160,7 +160,7 @@ def convert_tcga_maf(inpath, outpath):
 	        variantcall_json_tmp = variantcall_json + line_jsons_dict["VariantCall"] + ",\n"
 		outhandle.write(variantcall_json_tmp)
 	    if "BioSample" in line_jsons_dict:
-	        biosample_json_tmp = variantcall_json + line_jsons_dict["BioSample"] + ",\n"
+	        biosample_json_tmp = biosample_json + line_jsons_dict["BioSample"] + ",\n"
 		outhandle.write(biosample_json_tmp)
 	    if "Individual" in line_jsons_dict:
 	        individual_json_tmp = individual_json + line_jsons_dict["Individual"] + ",\n"

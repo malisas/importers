@@ -25,7 +25,7 @@
   }, 
   "id": "TCGA:VC:1"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -82,7 +82,7 @@
   }, 
   "id": "TCGA:VC:2"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -139,7 +139,7 @@
   }, 
   "id": "TCGA:VC:3"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -196,7 +196,7 @@
   }, 
   "id": "TCGA:VC:4"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -253,7 +253,7 @@
   }, 
   "id": "TCGA:VC:5"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -310,7 +310,7 @@
   }, 
   "id": "TCGA:VC:6"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -367,7 +367,7 @@
   }, 
   "id": "TCGA:VC:7"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -424,7 +424,7 @@
   }, 
   "id": "TCGA:VC:8"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -481,7 +481,7 @@
   }, 
   "id": "TCGA:VC:9"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -538,7 +538,7 @@
   }, 
   "id": "TCGA:VC:10"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -595,7 +595,7 @@
   }, 
   "id": "TCGA:VC:11"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -652,7 +652,7 @@
   }, 
   "id": "TCGA:VC:12"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -709,7 +709,7 @@
   }, 
   "id": "TCGA:VC:13"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -766,7 +766,7 @@
   }, 
   "id": "TCGA:VC:14"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -823,7 +823,7 @@
   }, 
   "id": "TCGA:VC:15"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -880,7 +880,7 @@
   }, 
   "id": "TCGA:VC:16"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -937,7 +937,7 @@
   }, 
   "id": "TCGA:VC:17"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -994,7 +994,7 @@
   }, 
   "id": "TCGA:VC:18"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1051,7 +1051,7 @@
   }, 
   "id": "TCGA:VC:19"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1108,7 +1108,7 @@
   }, 
   "id": "TCGA:VC:20"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1165,7 +1165,7 @@
   }, 
   "id": "TCGA:VC:21"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1222,7 +1222,7 @@
   }, 
   "id": "TCGA:VC:22"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1279,7 +1279,7 @@
   }, 
   "id": "TCGA:VC:23"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1336,7 +1336,7 @@
   }, 
   "id": "TCGA:VC:24"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1393,7 +1393,7 @@
   }, 
   "id": "TCGA:VC:25"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1450,7 +1450,7 @@
   }, 
   "id": "TCGA:VC:26"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1507,7 +1507,7 @@
   }, 
   "id": "TCGA:VC:27"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1564,7 +1564,7 @@
   }, 
   "id": "TCGA:VC:28"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1621,7 +1621,7 @@
   }, 
   "id": "TCGA:VC:29"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1678,7 +1678,7 @@
   }, 
   "id": "TCGA:VC:30"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1735,7 +1735,7 @@
   }, 
   "id": "TCGA:VC:31"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1792,7 +1792,7 @@
   }, 
   "id": "TCGA:VC:32"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1849,7 +1849,7 @@
   }, 
   "id": "TCGA:VC:33"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1906,7 +1906,7 @@
   }, 
   "id": "TCGA:VC:34"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -1963,7 +1963,7 @@
   }, 
   "id": "TCGA:VC:35"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2020,7 +2020,7 @@
   }, 
   "id": "TCGA:VC:36"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2077,7 +2077,7 @@
   }, 
   "id": "TCGA:VC:37"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2134,7 +2134,7 @@
   }, 
   "id": "TCGA:VC:38"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2191,7 +2191,7 @@
   }, 
   "id": "TCGA:VC:39"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2248,7 +2248,7 @@
   }, 
   "id": "TCGA:VC:40"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2305,7 +2305,7 @@
   }, 
   "id": "TCGA:VC:41"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2362,7 +2362,7 @@
   }, 
   "id": "TCGA:VC:42"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2419,7 +2419,7 @@
   }, 
   "id": "TCGA:VC:43"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2476,7 +2476,7 @@
   }, 
   "id": "TCGA:VC:44"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2533,7 +2533,7 @@
   }, 
   "id": "TCGA:VC:45"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2590,7 +2590,7 @@
   }, 
   "id": "TCGA:VC:46"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2647,7 +2647,7 @@
   }, 
   "id": "TCGA:VC:47"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2704,7 +2704,7 @@
   }, 
   "id": "TCGA:VC:48"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2761,7 +2761,7 @@
   }, 
   "id": "TCGA:VC:49"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2818,7 +2818,7 @@
   }, 
   "id": "TCGA:VC:50"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2875,7 +2875,7 @@
   }, 
   "id": "TCGA:VC:51"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2932,7 +2932,7 @@
   }, 
   "id": "TCGA:VC:52"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -2989,7 +2989,7 @@
   }, 
   "id": "TCGA:VC:53"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3046,7 +3046,7 @@
   }, 
   "id": "TCGA:VC:54"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3103,7 +3103,7 @@
   }, 
   "id": "TCGA:VC:55"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3160,7 +3160,7 @@
   }, 
   "id": "TCGA:VC:56"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3217,7 +3217,7 @@
   }, 
   "id": "TCGA:VC:57"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3274,7 +3274,7 @@
   }, 
   "id": "TCGA:VC:58"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3331,7 +3331,7 @@
   }, 
   "id": "TCGA:VC:59"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3388,7 +3388,7 @@
   }, 
   "id": "TCGA:VC:60"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3445,7 +3445,7 @@
   }, 
   "id": "TCGA:VC:61"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3502,7 +3502,7 @@
   }, 
   "id": "TCGA:VC:62"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3559,7 +3559,7 @@
   }, 
   "id": "TCGA:VC:63"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3616,7 +3616,7 @@
   }, 
   "id": "TCGA:VC:64"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3673,7 +3673,7 @@
   }, 
   "id": "TCGA:VC:65"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3730,7 +3730,7 @@
   }, 
   "id": "TCGA:VC:66"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3787,7 +3787,7 @@
   }, 
   "id": "TCGA:VC:67"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3844,7 +3844,7 @@
   }, 
   "id": "TCGA:VC:68"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3901,7 +3901,7 @@
   }, 
   "id": "TCGA:VC:69"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -3958,7 +3958,7 @@
   }, 
   "id": "TCGA:VC:70"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4015,7 +4015,7 @@
   }, 
   "id": "TCGA:VC:71"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4072,7 +4072,7 @@
   }, 
   "id": "TCGA:VC:72"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4129,7 +4129,7 @@
   }, 
   "id": "TCGA:VC:73"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4186,7 +4186,7 @@
   }, 
   "id": "TCGA:VC:74"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4243,7 +4243,7 @@
   }, 
   "id": "TCGA:VC:75"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4300,7 +4300,7 @@
   }, 
   "id": "TCGA:VC:76"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4357,7 +4357,7 @@
   }, 
   "id": "TCGA:VC:77"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4414,7 +4414,7 @@
   }, 
   "id": "TCGA:VC:78"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4471,7 +4471,7 @@
   }, 
   "id": "TCGA:VC:79"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4528,7 +4528,7 @@
   }, 
   "id": "TCGA:VC:80"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4585,7 +4585,7 @@
   }, 
   "id": "TCGA:VC:81"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4642,7 +4642,7 @@
   }, 
   "id": "TCGA:VC:82"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4699,7 +4699,7 @@
   }, 
   "id": "TCGA:VC:83"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4756,7 +4756,7 @@
   }, 
   "id": "TCGA:VC:84"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4813,7 +4813,7 @@
   }, 
   "id": "TCGA:VC:85"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4870,7 +4870,7 @@
   }, 
   "id": "TCGA:VC:86"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4927,7 +4927,7 @@
   }, 
   "id": "TCGA:VC:87"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -4984,7 +4984,7 @@
   }, 
   "id": "TCGA:VC:88"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5041,7 +5041,7 @@
   }, 
   "id": "TCGA:VC:89"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5098,7 +5098,7 @@
   }, 
   "id": "TCGA:VC:90"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5155,7 +5155,7 @@
   }, 
   "id": "TCGA:VC:91"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5212,7 +5212,7 @@
   }, 
   "id": "TCGA:VC:92"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5269,7 +5269,7 @@
   }, 
   "id": "TCGA:VC:93"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5326,7 +5326,7 @@
   }, 
   "id": "TCGA:VC:94"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5383,7 +5383,7 @@
   }, 
   "id": "TCGA:VC:95"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5440,7 +5440,7 @@
   }, 
   "id": "TCGA:VC:96"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5497,7 +5497,7 @@
   }, 
   "id": "TCGA:VC:97"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5554,7 +5554,7 @@
   }, 
   "id": "TCGA:VC:98"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5611,7 +5611,7 @@
   }, 
   "id": "TCGA:VC:99"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5668,7 +5668,7 @@
   }, 
   "id": "TCGA:VC:100"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5725,7 +5725,7 @@
   }, 
   "id": "TCGA:VC:101"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5782,7 +5782,7 @@
   }, 
   "id": "TCGA:VC:102"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5839,7 +5839,7 @@
   }, 
   "id": "TCGA:VC:103"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5896,7 +5896,7 @@
   }, 
   "id": "TCGA:VC:104"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -5953,7 +5953,7 @@
   }, 
   "id": "TCGA:VC:105"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6010,7 +6010,7 @@
   }, 
   "id": "TCGA:VC:106"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6067,7 +6067,7 @@
   }, 
   "id": "TCGA:VC:107"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6124,7 +6124,7 @@
   }, 
   "id": "TCGA:VC:108"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6181,7 +6181,7 @@
   }, 
   "id": "TCGA:VC:109"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6238,7 +6238,7 @@
   }, 
   "id": "TCGA:VC:110"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6295,7 +6295,7 @@
   }, 
   "id": "TCGA:VC:111"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6352,7 +6352,7 @@
   }, 
   "id": "TCGA:VC:112"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6409,7 +6409,7 @@
   }, 
   "id": "TCGA:VC:113"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6466,7 +6466,7 @@
   }, 
   "id": "TCGA:VC:114"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6523,7 +6523,7 @@
   }, 
   "id": "TCGA:VC:115"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6580,7 +6580,7 @@
   }, 
   "id": "TCGA:VC:116"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6637,7 +6637,7 @@
   }, 
   "id": "TCGA:VC:117"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6694,7 +6694,7 @@
   }, 
   "id": "TCGA:VC:118"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6751,7 +6751,7 @@
   }, 
   "id": "TCGA:VC:119"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6808,7 +6808,7 @@
   }, 
   "id": "TCGA:VC:120"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6865,7 +6865,7 @@
   }, 
   "id": "TCGA:VC:121"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6922,7 +6922,7 @@
   }, 
   "id": "TCGA:VC:122"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -6979,7 +6979,7 @@
   }, 
   "id": "TCGA:VC:123"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7036,7 +7036,7 @@
   }, 
   "id": "TCGA:VC:124"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7093,7 +7093,7 @@
   }, 
   "id": "TCGA:VC:125"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7150,7 +7150,7 @@
   }, 
   "id": "TCGA:VC:126"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7207,7 +7207,7 @@
   }, 
   "id": "TCGA:VC:127"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7264,7 +7264,7 @@
   }, 
   "id": "TCGA:VC:128"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7321,7 +7321,7 @@
   }, 
   "id": "TCGA:VC:129"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7378,7 +7378,7 @@
   }, 
   "id": "TCGA:VC:130"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7435,7 +7435,7 @@
   }, 
   "id": "TCGA:VC:131"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7492,7 +7492,7 @@
   }, 
   "id": "TCGA:VC:132"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7549,7 +7549,7 @@
   }, 
   "id": "TCGA:VC:133"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7606,7 +7606,7 @@
   }, 
   "id": "TCGA:VC:134"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7663,7 +7663,7 @@
   }, 
   "id": "TCGA:VC:135"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7720,7 +7720,7 @@
   }, 
   "id": "TCGA:VC:136"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7777,7 +7777,7 @@
   }, 
   "id": "TCGA:VC:137"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7834,7 +7834,7 @@
   }, 
   "id": "TCGA:VC:138"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7891,7 +7891,7 @@
   }, 
   "id": "TCGA:VC:139"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -7948,7 +7948,7 @@
   }, 
   "id": "TCGA:VC:140"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8005,7 +8005,7 @@
   }, 
   "id": "TCGA:VC:141"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8062,7 +8062,7 @@
   }, 
   "id": "TCGA:VC:142"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8119,7 +8119,7 @@
   }, 
   "id": "TCGA:VC:143"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8176,7 +8176,7 @@
   }, 
   "id": "TCGA:VC:144"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8233,7 +8233,7 @@
   }, 
   "id": "TCGA:VC:145"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8290,7 +8290,7 @@
   }, 
   "id": "TCGA:VC:146"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8347,7 +8347,7 @@
   }, 
   "id": "TCGA:VC:147"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8404,7 +8404,7 @@
   }, 
   "id": "TCGA:VC:148"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8461,7 +8461,7 @@
   }, 
   "id": "TCGA:VC:149"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8518,7 +8518,7 @@
   }, 
   "id": "TCGA:VC:150"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8575,7 +8575,7 @@
   }, 
   "id": "TCGA:VC:151"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8632,7 +8632,7 @@
   }, 
   "id": "TCGA:VC:152"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8689,7 +8689,7 @@
   }, 
   "id": "TCGA:VC:153"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8746,7 +8746,7 @@
   }, 
   "id": "TCGA:VC:154"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8803,7 +8803,7 @@
   }, 
   "id": "TCGA:VC:155"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8860,7 +8860,7 @@
   }, 
   "id": "TCGA:VC:156"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8917,7 +8917,7 @@
   }, 
   "id": "TCGA:VC:157"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -8974,7 +8974,7 @@
   }, 
   "id": "TCGA:VC:158"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9031,7 +9031,7 @@
   }, 
   "id": "TCGA:VC:159"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9088,7 +9088,7 @@
   }, 
   "id": "TCGA:VC:160"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9145,7 +9145,7 @@
   }, 
   "id": "TCGA:VC:161"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9202,7 +9202,7 @@
   }, 
   "id": "TCGA:VC:162"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9259,7 +9259,7 @@
   }, 
   "id": "TCGA:VC:163"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9316,7 +9316,7 @@
   }, 
   "id": "TCGA:VC:164"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9373,7 +9373,7 @@
   }, 
   "id": "TCGA:VC:165"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9430,7 +9430,7 @@
   }, 
   "id": "TCGA:VC:166"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9487,7 +9487,7 @@
   }, 
   "id": "TCGA:VC:167"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9544,7 +9544,7 @@
   }, 
   "id": "TCGA:VC:168"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9601,7 +9601,7 @@
   }, 
   "id": "TCGA:VC:169"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9658,7 +9658,7 @@
   }, 
   "id": "TCGA:VC:170"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9715,7 +9715,7 @@
   }, 
   "id": "TCGA:VC:171"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9772,7 +9772,7 @@
   }, 
   "id": "TCGA:VC:172"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9829,7 +9829,7 @@
   }, 
   "id": "TCGA:VC:173"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9886,7 +9886,7 @@
   }, 
   "id": "TCGA:VC:174"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -9943,7 +9943,7 @@
   }, 
   "id": "TCGA:VC:175"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -10000,7 +10000,7 @@
   }, 
   "id": "TCGA:VC:176"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -10057,7 +10057,7 @@
   }, 
   "id": "TCGA:VC:177"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -10114,7 +10114,7 @@
   }, 
   "id": "TCGA:VC:178"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -10171,7 +10171,7 @@
   }, 
   "id": "TCGA:VC:179"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -10228,7 +10228,7 @@
   }, 
   "id": "TCGA:VC:180"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -10285,7 +10285,7 @@
   }, 
   "id": "TCGA:VC:181"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -10342,7 +10342,7 @@
   }, 
   "id": "TCGA:VC:182"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -10399,7 +10399,7 @@
   }, 
   "id": "TCGA:VC:183"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -10456,7 +10456,7 @@
   }, 
   "id": "TCGA:VC:184"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -10513,7 +10513,7 @@
   }, 
   "id": "TCGA:VC:185"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -10570,7 +10570,7 @@
   }, 
   "id": "TCGA:VC:186"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -10627,7 +10627,7 @@
   }, 
   "id": "TCGA:VC:187"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -10684,7 +10684,7 @@
   }, 
   "id": "TCGA:VC:188"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -10741,7 +10741,7 @@
   }, 
   "id": "TCGA:VC:189"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08", 
   "name": "TCGA-BL-A0C8-01A-11D-A10S-08 TCGA-BL-A0C8-10A-01D-A10S-08"
 },
@@ -10798,7 +10798,7 @@
   }, 
   "id": "TCGA:VC:190"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -10855,7 +10855,7 @@
   }, 
   "id": "TCGA:VC:191"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -10912,7 +10912,7 @@
   }, 
   "id": "TCGA:VC:192"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -10969,7 +10969,7 @@
   }, 
   "id": "TCGA:VC:193"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11026,7 +11026,7 @@
   }, 
   "id": "TCGA:VC:194"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11083,7 +11083,7 @@
   }, 
   "id": "TCGA:VC:195"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11140,7 +11140,7 @@
   }, 
   "id": "TCGA:VC:196"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11197,7 +11197,7 @@
   }, 
   "id": "TCGA:VC:197"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11254,7 +11254,7 @@
   }, 
   "id": "TCGA:VC:198"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11311,7 +11311,7 @@
   }, 
   "id": "TCGA:VC:199"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11368,7 +11368,7 @@
   }, 
   "id": "TCGA:VC:200"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11425,7 +11425,7 @@
   }, 
   "id": "TCGA:VC:201"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11482,7 +11482,7 @@
   }, 
   "id": "TCGA:VC:202"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11539,7 +11539,7 @@
   }, 
   "id": "TCGA:VC:203"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11596,7 +11596,7 @@
   }, 
   "id": "TCGA:VC:204"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11653,7 +11653,7 @@
   }, 
   "id": "TCGA:VC:205"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11710,7 +11710,7 @@
   }, 
   "id": "TCGA:VC:206"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11767,7 +11767,7 @@
   }, 
   "id": "TCGA:VC:207"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11824,7 +11824,7 @@
   }, 
   "id": "TCGA:VC:208"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11881,7 +11881,7 @@
   }, 
   "id": "TCGA:VC:209"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11938,7 +11938,7 @@
   }, 
   "id": "TCGA:VC:210"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -11995,7 +11995,7 @@
   }, 
   "id": "TCGA:VC:211"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12052,7 +12052,7 @@
   }, 
   "id": "TCGA:VC:212"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12109,7 +12109,7 @@
   }, 
   "id": "TCGA:VC:213"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12166,7 +12166,7 @@
   }, 
   "id": "TCGA:VC:214"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12223,7 +12223,7 @@
   }, 
   "id": "TCGA:VC:215"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12280,7 +12280,7 @@
   }, 
   "id": "TCGA:VC:216"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12337,7 +12337,7 @@
   }, 
   "id": "TCGA:VC:217"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12394,7 +12394,7 @@
   }, 
   "id": "TCGA:VC:218"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12451,7 +12451,7 @@
   }, 
   "id": "TCGA:VC:219"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12508,7 +12508,7 @@
   }, 
   "id": "TCGA:VC:220"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12565,7 +12565,7 @@
   }, 
   "id": "TCGA:VC:221"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12622,7 +12622,7 @@
   }, 
   "id": "TCGA:VC:222"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12679,7 +12679,7 @@
   }, 
   "id": "TCGA:VC:223"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12736,7 +12736,7 @@
   }, 
   "id": "TCGA:VC:224"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12793,7 +12793,7 @@
   }, 
   "id": "TCGA:VC:225"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12850,7 +12850,7 @@
   }, 
   "id": "TCGA:VC:226"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12907,7 +12907,7 @@
   }, 
   "id": "TCGA:VC:227"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -12964,7 +12964,7 @@
   }, 
   "id": "TCGA:VC:228"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13021,7 +13021,7 @@
   }, 
   "id": "TCGA:VC:229"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13078,7 +13078,7 @@
   }, 
   "id": "TCGA:VC:230"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13135,7 +13135,7 @@
   }, 
   "id": "TCGA:VC:231"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13192,7 +13192,7 @@
   }, 
   "id": "TCGA:VC:232"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13249,7 +13249,7 @@
   }, 
   "id": "TCGA:VC:233"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13306,7 +13306,7 @@
   }, 
   "id": "TCGA:VC:234"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13363,7 +13363,7 @@
   }, 
   "id": "TCGA:VC:235"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13420,7 +13420,7 @@
   }, 
   "id": "TCGA:VC:236"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13477,7 +13477,7 @@
   }, 
   "id": "TCGA:VC:237"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13534,7 +13534,7 @@
   }, 
   "id": "TCGA:VC:238"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13591,7 +13591,7 @@
   }, 
   "id": "TCGA:VC:239"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13648,7 +13648,7 @@
   }, 
   "id": "TCGA:VC:240"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13705,7 +13705,7 @@
   }, 
   "id": "TCGA:VC:241"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13762,7 +13762,7 @@
   }, 
   "id": "TCGA:VC:242"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13819,7 +13819,7 @@
   }, 
   "id": "TCGA:VC:243"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13876,7 +13876,7 @@
   }, 
   "id": "TCGA:VC:244"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13933,7 +13933,7 @@
   }, 
   "id": "TCGA:VC:245"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -13990,7 +13990,7 @@
   }, 
   "id": "TCGA:VC:246"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14047,7 +14047,7 @@
   }, 
   "id": "TCGA:VC:247"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14104,7 +14104,7 @@
   }, 
   "id": "TCGA:VC:248"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14161,7 +14161,7 @@
   }, 
   "id": "TCGA:VC:249"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14218,7 +14218,7 @@
   }, 
   "id": "TCGA:VC:250"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14275,7 +14275,7 @@
   }, 
   "id": "TCGA:VC:251"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14332,7 +14332,7 @@
   }, 
   "id": "TCGA:VC:252"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14389,7 +14389,7 @@
   }, 
   "id": "TCGA:VC:253"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14446,7 +14446,7 @@
   }, 
   "id": "TCGA:VC:254"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14503,7 +14503,7 @@
   }, 
   "id": "TCGA:VC:255"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14560,7 +14560,7 @@
   }, 
   "id": "TCGA:VC:256"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14617,7 +14617,7 @@
   }, 
   "id": "TCGA:VC:257"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14674,7 +14674,7 @@
   }, 
   "id": "TCGA:VC:258"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14731,7 +14731,7 @@
   }, 
   "id": "TCGA:VC:259"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14788,7 +14788,7 @@
   }, 
   "id": "TCGA:VC:260"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14845,7 +14845,7 @@
   }, 
   "id": "TCGA:VC:261"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14902,7 +14902,7 @@
   }, 
   "id": "TCGA:VC:262"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -14959,7 +14959,7 @@
   }, 
   "id": "TCGA:VC:263"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15016,7 +15016,7 @@
   }, 
   "id": "TCGA:VC:264"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15073,7 +15073,7 @@
   }, 
   "id": "TCGA:VC:265"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15130,7 +15130,7 @@
   }, 
   "id": "TCGA:VC:266"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15187,7 +15187,7 @@
   }, 
   "id": "TCGA:VC:267"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15244,7 +15244,7 @@
   }, 
   "id": "TCGA:VC:268"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15301,7 +15301,7 @@
   }, 
   "id": "TCGA:VC:269"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15358,7 +15358,7 @@
   }, 
   "id": "TCGA:VC:270"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15415,7 +15415,7 @@
   }, 
   "id": "TCGA:VC:271"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15472,7 +15472,7 @@
   }, 
   "id": "TCGA:VC:272"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15529,7 +15529,7 @@
   }, 
   "id": "TCGA:VC:273"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15586,7 +15586,7 @@
   }, 
   "id": "TCGA:VC:274"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15643,7 +15643,7 @@
   }, 
   "id": "TCGA:VC:275"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15700,7 +15700,7 @@
   }, 
   "id": "TCGA:VC:276"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15757,7 +15757,7 @@
   }, 
   "id": "TCGA:VC:277"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15814,7 +15814,7 @@
   }, 
   "id": "TCGA:VC:278"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15871,7 +15871,7 @@
   }, 
   "id": "TCGA:VC:279"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15928,7 +15928,7 @@
   }, 
   "id": "TCGA:VC:280"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -15985,7 +15985,7 @@
   }, 
   "id": "TCGA:VC:281"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16042,7 +16042,7 @@
   }, 
   "id": "TCGA:VC:282"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16099,7 +16099,7 @@
   }, 
   "id": "TCGA:VC:283"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16156,7 +16156,7 @@
   }, 
   "id": "TCGA:VC:284"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16213,7 +16213,7 @@
   }, 
   "id": "TCGA:VC:285"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16270,7 +16270,7 @@
   }, 
   "id": "TCGA:VC:286"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16327,7 +16327,7 @@
   }, 
   "id": "TCGA:VC:287"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16384,7 +16384,7 @@
   }, 
   "id": "TCGA:VC:288"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16441,7 +16441,7 @@
   }, 
   "id": "TCGA:VC:289"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16498,7 +16498,7 @@
   }, 
   "id": "TCGA:VC:290"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16555,7 +16555,7 @@
   }, 
   "id": "TCGA:VC:291"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16612,7 +16612,7 @@
   }, 
   "id": "TCGA:VC:292"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16669,7 +16669,7 @@
   }, 
   "id": "TCGA:VC:293"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16726,7 +16726,7 @@
   }, 
   "id": "TCGA:VC:294"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16783,7 +16783,7 @@
   }, 
   "id": "TCGA:VC:295"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16840,7 +16840,7 @@
   }, 
   "id": "TCGA:VC:296"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16897,7 +16897,7 @@
   }, 
   "id": "TCGA:VC:297"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -16954,7 +16954,7 @@
   }, 
   "id": "TCGA:VC:298"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17011,7 +17011,7 @@
   }, 
   "id": "TCGA:VC:299"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17068,7 +17068,7 @@
   }, 
   "id": "TCGA:VC:300"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17125,7 +17125,7 @@
   }, 
   "id": "TCGA:VC:301"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17182,7 +17182,7 @@
   }, 
   "id": "TCGA:VC:302"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17239,7 +17239,7 @@
   }, 
   "id": "TCGA:VC:303"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17296,7 +17296,7 @@
   }, 
   "id": "TCGA:VC:304"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17353,7 +17353,7 @@
   }, 
   "id": "TCGA:VC:305"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17410,7 +17410,7 @@
   }, 
   "id": "TCGA:VC:306"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17467,7 +17467,7 @@
   }, 
   "id": "TCGA:VC:307"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17524,7 +17524,7 @@
   }, 
   "id": "TCGA:VC:308"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17581,7 +17581,7 @@
   }, 
   "id": "TCGA:VC:309"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17638,7 +17638,7 @@
   }, 
   "id": "TCGA:VC:310"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17695,7 +17695,7 @@
   }, 
   "id": "TCGA:VC:311"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17752,7 +17752,7 @@
   }, 
   "id": "TCGA:VC:312"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17809,7 +17809,7 @@
   }, 
   "id": "TCGA:VC:313"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17866,7 +17866,7 @@
   }, 
   "id": "TCGA:VC:314"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17923,7 +17923,7 @@
   }, 
   "id": "TCGA:VC:315"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -17980,7 +17980,7 @@
   }, 
   "id": "TCGA:VC:316"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -18037,7 +18037,7 @@
   }, 
   "id": "TCGA:VC:317"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -18094,7 +18094,7 @@
   }, 
   "id": "TCGA:VC:318"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08", 
   "name": "TCGA-BL-A13I-01A-11D-A13W-08 TCGA-BL-A13I-11A-11D-A13W-08"
 },
@@ -18151,7 +18151,7 @@
   }, 
   "id": "TCGA:VC:319"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -18208,7 +18208,7 @@
   }, 
   "id": "TCGA:VC:320"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -18265,7 +18265,7 @@
   }, 
   "id": "TCGA:VC:321"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -18322,7 +18322,7 @@
   }, 
   "id": "TCGA:VC:322"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -18379,7 +18379,7 @@
   }, 
   "id": "TCGA:VC:323"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -18436,7 +18436,7 @@
   }, 
   "id": "TCGA:VC:324"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -18493,7 +18493,7 @@
   }, 
   "id": "TCGA:VC:325"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -18550,7 +18550,7 @@
   }, 
   "id": "TCGA:VC:326"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -18607,7 +18607,7 @@
   }, 
   "id": "TCGA:VC:327"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -18664,7 +18664,7 @@
   }, 
   "id": "TCGA:VC:328"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -18721,7 +18721,7 @@
   }, 
   "id": "TCGA:VC:329"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -18778,7 +18778,7 @@
   }, 
   "id": "TCGA:VC:330"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -18835,7 +18835,7 @@
   }, 
   "id": "TCGA:VC:331"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -18892,7 +18892,7 @@
   }, 
   "id": "TCGA:VC:332"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -18949,7 +18949,7 @@
   }, 
   "id": "TCGA:VC:333"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19006,7 +19006,7 @@
   }, 
   "id": "TCGA:VC:334"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19063,7 +19063,7 @@
   }, 
   "id": "TCGA:VC:335"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19120,7 +19120,7 @@
   }, 
   "id": "TCGA:VC:336"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19177,7 +19177,7 @@
   }, 
   "id": "TCGA:VC:337"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19234,7 +19234,7 @@
   }, 
   "id": "TCGA:VC:338"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19291,7 +19291,7 @@
   }, 
   "id": "TCGA:VC:339"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19348,7 +19348,7 @@
   }, 
   "id": "TCGA:VC:340"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19405,7 +19405,7 @@
   }, 
   "id": "TCGA:VC:341"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19462,7 +19462,7 @@
   }, 
   "id": "TCGA:VC:342"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19519,7 +19519,7 @@
   }, 
   "id": "TCGA:VC:343"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19576,7 +19576,7 @@
   }, 
   "id": "TCGA:VC:344"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19633,7 +19633,7 @@
   }, 
   "id": "TCGA:VC:345"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19690,7 +19690,7 @@
   }, 
   "id": "TCGA:VC:346"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19747,7 +19747,7 @@
   }, 
   "id": "TCGA:VC:347"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19804,7 +19804,7 @@
   }, 
   "id": "TCGA:VC:348"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19861,7 +19861,7 @@
   }, 
   "id": "TCGA:VC:349"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19918,7 +19918,7 @@
   }, 
   "id": "TCGA:VC:350"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -19975,7 +19975,7 @@
   }, 
   "id": "TCGA:VC:351"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20032,7 +20032,7 @@
   }, 
   "id": "TCGA:VC:352"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20089,7 +20089,7 @@
   }, 
   "id": "TCGA:VC:353"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20146,7 +20146,7 @@
   }, 
   "id": "TCGA:VC:354"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20203,7 +20203,7 @@
   }, 
   "id": "TCGA:VC:355"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20260,7 +20260,7 @@
   }, 
   "id": "TCGA:VC:356"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20317,7 +20317,7 @@
   }, 
   "id": "TCGA:VC:357"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20374,7 +20374,7 @@
   }, 
   "id": "TCGA:VC:358"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20431,7 +20431,7 @@
   }, 
   "id": "TCGA:VC:359"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20488,7 +20488,7 @@
   }, 
   "id": "TCGA:VC:360"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20545,7 +20545,7 @@
   }, 
   "id": "TCGA:VC:361"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20602,7 +20602,7 @@
   }, 
   "id": "TCGA:VC:362"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20659,7 +20659,7 @@
   }, 
   "id": "TCGA:VC:363"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20716,7 +20716,7 @@
   }, 
   "id": "TCGA:VC:364"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20773,7 +20773,7 @@
   }, 
   "id": "TCGA:VC:365"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20830,7 +20830,7 @@
   }, 
   "id": "TCGA:VC:366"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20887,7 +20887,7 @@
   }, 
   "id": "TCGA:VC:367"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -20944,7 +20944,7 @@
   }, 
   "id": "TCGA:VC:368"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21001,7 +21001,7 @@
   }, 
   "id": "TCGA:VC:369"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21058,7 +21058,7 @@
   }, 
   "id": "TCGA:VC:370"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21115,7 +21115,7 @@
   }, 
   "id": "TCGA:VC:371"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21172,7 +21172,7 @@
   }, 
   "id": "TCGA:VC:372"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21229,7 +21229,7 @@
   }, 
   "id": "TCGA:VC:373"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21286,7 +21286,7 @@
   }, 
   "id": "TCGA:VC:374"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21343,7 +21343,7 @@
   }, 
   "id": "TCGA:VC:375"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21400,7 +21400,7 @@
   }, 
   "id": "TCGA:VC:376"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21457,7 +21457,7 @@
   }, 
   "id": "TCGA:VC:377"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21514,7 +21514,7 @@
   }, 
   "id": "TCGA:VC:378"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21571,7 +21571,7 @@
   }, 
   "id": "TCGA:VC:379"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21628,7 +21628,7 @@
   }, 
   "id": "TCGA:VC:380"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21685,7 +21685,7 @@
   }, 
   "id": "TCGA:VC:381"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21742,7 +21742,7 @@
   }, 
   "id": "TCGA:VC:382"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21799,7 +21799,7 @@
   }, 
   "id": "TCGA:VC:383"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21856,7 +21856,7 @@
   }, 
   "id": "TCGA:VC:384"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21913,7 +21913,7 @@
   }, 
   "id": "TCGA:VC:385"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -21970,7 +21970,7 @@
   }, 
   "id": "TCGA:VC:386"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22027,7 +22027,7 @@
   }, 
   "id": "TCGA:VC:387"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22084,7 +22084,7 @@
   }, 
   "id": "TCGA:VC:388"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22141,7 +22141,7 @@
   }, 
   "id": "TCGA:VC:389"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22198,7 +22198,7 @@
   }, 
   "id": "TCGA:VC:390"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22255,7 +22255,7 @@
   }, 
   "id": "TCGA:VC:391"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22312,7 +22312,7 @@
   }, 
   "id": "TCGA:VC:392"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22369,7 +22369,7 @@
   }, 
   "id": "TCGA:VC:393"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22426,7 +22426,7 @@
   }, 
   "id": "TCGA:VC:394"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22483,7 +22483,7 @@
   }, 
   "id": "TCGA:VC:395"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22540,7 +22540,7 @@
   }, 
   "id": "TCGA:VC:396"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22597,7 +22597,7 @@
   }, 
   "id": "TCGA:VC:397"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22654,7 +22654,7 @@
   }, 
   "id": "TCGA:VC:398"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22711,7 +22711,7 @@
   }, 
   "id": "TCGA:VC:399"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22768,7 +22768,7 @@
   }, 
   "id": "TCGA:VC:400"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22825,7 +22825,7 @@
   }, 
   "id": "TCGA:VC:401"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22882,7 +22882,7 @@
   }, 
   "id": "TCGA:VC:402"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22939,7 +22939,7 @@
   }, 
   "id": "TCGA:VC:403"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -22996,7 +22996,7 @@
   }, 
   "id": "TCGA:VC:404"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23053,7 +23053,7 @@
   }, 
   "id": "TCGA:VC:405"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23110,7 +23110,7 @@
   }, 
   "id": "TCGA:VC:406"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23167,7 +23167,7 @@
   }, 
   "id": "TCGA:VC:407"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23224,7 +23224,7 @@
   }, 
   "id": "TCGA:VC:408"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23281,7 +23281,7 @@
   }, 
   "id": "TCGA:VC:409"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23338,7 +23338,7 @@
   }, 
   "id": "TCGA:VC:410"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23395,7 +23395,7 @@
   }, 
   "id": "TCGA:VC:411"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23452,7 +23452,7 @@
   }, 
   "id": "TCGA:VC:412"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23509,7 +23509,7 @@
   }, 
   "id": "TCGA:VC:413"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23566,7 +23566,7 @@
   }, 
   "id": "TCGA:VC:414"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23623,7 +23623,7 @@
   }, 
   "id": "TCGA:VC:415"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23680,7 +23680,7 @@
   }, 
   "id": "TCGA:VC:416"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23737,7 +23737,7 @@
   }, 
   "id": "TCGA:VC:417"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23794,7 +23794,7 @@
   }, 
   "id": "TCGA:VC:418"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23851,7 +23851,7 @@
   }, 
   "id": "TCGA:VC:419"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23908,7 +23908,7 @@
   }, 
   "id": "TCGA:VC:420"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -23965,7 +23965,7 @@
   }, 
   "id": "TCGA:VC:421"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24022,7 +24022,7 @@
   }, 
   "id": "TCGA:VC:422"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24079,7 +24079,7 @@
   }, 
   "id": "TCGA:VC:423"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24136,7 +24136,7 @@
   }, 
   "id": "TCGA:VC:424"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24193,7 +24193,7 @@
   }, 
   "id": "TCGA:VC:425"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24250,7 +24250,7 @@
   }, 
   "id": "TCGA:VC:426"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24307,7 +24307,7 @@
   }, 
   "id": "TCGA:VC:427"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24364,7 +24364,7 @@
   }, 
   "id": "TCGA:VC:428"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24421,7 +24421,7 @@
   }, 
   "id": "TCGA:VC:429"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24478,7 +24478,7 @@
   }, 
   "id": "TCGA:VC:430"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24535,7 +24535,7 @@
   }, 
   "id": "TCGA:VC:431"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24592,7 +24592,7 @@
   }, 
   "id": "TCGA:VC:432"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24649,7 +24649,7 @@
   }, 
   "id": "TCGA:VC:433"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24706,7 +24706,7 @@
   }, 
   "id": "TCGA:VC:434"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24763,7 +24763,7 @@
   }, 
   "id": "TCGA:VC:435"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24820,7 +24820,7 @@
   }, 
   "id": "TCGA:VC:436"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24877,7 +24877,7 @@
   }, 
   "id": "TCGA:VC:437"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24934,7 +24934,7 @@
   }, 
   "id": "TCGA:VC:438"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -24991,7 +24991,7 @@
   }, 
   "id": "TCGA:VC:439"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25048,7 +25048,7 @@
   }, 
   "id": "TCGA:VC:440"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25105,7 +25105,7 @@
   }, 
   "id": "TCGA:VC:441"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25162,7 +25162,7 @@
   }, 
   "id": "TCGA:VC:442"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25219,7 +25219,7 @@
   }, 
   "id": "TCGA:VC:443"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25276,7 +25276,7 @@
   }, 
   "id": "TCGA:VC:444"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25333,7 +25333,7 @@
   }, 
   "id": "TCGA:VC:445"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25390,7 +25390,7 @@
   }, 
   "id": "TCGA:VC:446"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25447,7 +25447,7 @@
   }, 
   "id": "TCGA:VC:447"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25504,7 +25504,7 @@
   }, 
   "id": "TCGA:VC:448"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25561,7 +25561,7 @@
   }, 
   "id": "TCGA:VC:449"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25618,7 +25618,7 @@
   }, 
   "id": "TCGA:VC:450"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25675,7 +25675,7 @@
   }, 
   "id": "TCGA:VC:451"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25732,7 +25732,7 @@
   }, 
   "id": "TCGA:VC:452"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25789,7 +25789,7 @@
   }, 
   "id": "TCGA:VC:453"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25846,7 +25846,7 @@
   }, 
   "id": "TCGA:VC:454"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25903,7 +25903,7 @@
   }, 
   "id": "TCGA:VC:455"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -25960,7 +25960,7 @@
   }, 
   "id": "TCGA:VC:456"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -26017,7 +26017,7 @@
   }, 
   "id": "TCGA:VC:457"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -26074,7 +26074,7 @@
   }, 
   "id": "TCGA:VC:458"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -26131,7 +26131,7 @@
   }, 
   "id": "TCGA:VC:459"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -26188,7 +26188,7 @@
   }, 
   "id": "TCGA:VC:460"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -26245,7 +26245,7 @@
   }, 
   "id": "TCGA:VC:461"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -26302,7 +26302,7 @@
   }, 
   "id": "TCGA:VC:462"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -26359,7 +26359,7 @@
   }, 
   "id": "TCGA:VC:463"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -26416,7 +26416,7 @@
   }, 
   "id": "TCGA:VC:464"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -26473,7 +26473,7 @@
   }, 
   "id": "TCGA:VC:465"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -26530,7 +26530,7 @@
   }, 
   "id": "TCGA:VC:466"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -26587,7 +26587,7 @@
   }, 
   "id": "TCGA:VC:467"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -26644,7 +26644,7 @@
   }, 
   "id": "TCGA:VC:468"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-10A-01D-A10S-08"
 },
@@ -26701,7 +26701,7 @@
   }, 
   "id": "TCGA:VC:469"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08"
 },
@@ -26758,7 +26758,7 @@
   }, 
   "id": "TCGA:VC:470"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08"
 },
@@ -26815,7 +26815,7 @@
   }, 
   "id": "TCGA:VC:471"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08"
 },
@@ -26872,7 +26872,7 @@
   }, 
   "id": "TCGA:VC:472"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08"
 },
@@ -26929,7 +26929,7 @@
   }, 
   "id": "TCGA:VC:473"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08"
 },
@@ -26986,7 +26986,7 @@
   }, 
   "id": "TCGA:VC:474"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08"
 },
@@ -27043,7 +27043,7 @@
   }, 
   "id": "TCGA:VC:475"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08"
 },
@@ -27100,7 +27100,7 @@
   }, 
   "id": "TCGA:VC:476"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08"
 },
@@ -27157,7 +27157,7 @@
   }, 
   "id": "TCGA:VC:477"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08"
 },
@@ -27214,7 +27214,7 @@
   }, 
   "id": "TCGA:VC:478"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08"
 },
@@ -27271,7 +27271,7 @@
   }, 
   "id": "TCGA:VC:479"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08"
 },
@@ -27328,7 +27328,7 @@
   }, 
   "id": "TCGA:VC:480"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08", 
   "name": "TCGA-BL-A13J-01A-11D-A10S-08 TCGA-BL-A13J-11A-13D-A10S-08"
 },
@@ -27385,7 +27385,7 @@
   }, 
   "id": "TCGA:VC:481"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -27442,7 +27442,7 @@
   }, 
   "id": "TCGA:VC:482"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -27499,7 +27499,7 @@
   }, 
   "id": "TCGA:VC:483"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -27556,7 +27556,7 @@
   }, 
   "id": "TCGA:VC:484"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -27613,7 +27613,7 @@
   }, 
   "id": "TCGA:VC:485"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -27670,7 +27670,7 @@
   }, 
   "id": "TCGA:VC:486"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -27727,7 +27727,7 @@
   }, 
   "id": "TCGA:VC:487"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -27784,7 +27784,7 @@
   }, 
   "id": "TCGA:VC:488"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -27841,7 +27841,7 @@
   }, 
   "id": "TCGA:VC:489"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -27898,7 +27898,7 @@
   }, 
   "id": "TCGA:VC:490"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -27955,7 +27955,7 @@
   }, 
   "id": "TCGA:VC:491"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -28012,7 +28012,7 @@
   }, 
   "id": "TCGA:VC:492"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -28069,7 +28069,7 @@
   }, 
   "id": "TCGA:VC:493"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -28126,7 +28126,7 @@
   }, 
   "id": "TCGA:VC:494"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -28183,7 +28183,7 @@
   }, 
   "id": "TCGA:VC:495"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -28240,7 +28240,7 @@
   }, 
   "id": "TCGA:VC:496"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -28297,7 +28297,7 @@
   }, 
   "id": "TCGA:VC:497"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -28354,7 +28354,7 @@
   }, 
   "id": "TCGA:VC:498"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
@@ -28411,7 +28411,7 @@
   }, 
   "id": "TCGA:VC:499"
 },
-"VariantCall": {
+"BioSample": {
   "id": "TCGA:TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08", 
   "name": "TCGA-BL-A3JM-01A-12D-A21A-08 TCGA-BL-A3JM-11A-31D-A21A-08"
 },
