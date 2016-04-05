@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='simple_schema.proto',
   package='ga4gh',
   syntax='proto3',
-  serialized_pb=_b('\n\x13simple_schema.proto\x12\x05ga4gh\"]\n\x08Position\x12\x16\n\x0ereference_name\x18\x01 \x01(\t\x12\r\n\x05start\x18\x02 \x01(\x03\x12\x0b\n\x03\x65nd\x18\x03 \x01(\x03\x12\x1d\n\x06strand\x18\x04 \x01(\x0e\x32\r.ga4gh.Strand\"\xd5\x01\n\x0bVariantCall\x12\n\n\x02id\x18\x01 \x01(\t\x12\x13\n\x0b\x62ioSampleId\x18\x02 \x01(\t\x12!\n\x08position\x18\x03 \x01(\x0b\x32\x0f.ga4gh.Position\x12\x17\n\x0freference_bases\x18\x04 \x01(\t\x12\x10\n\x08genotype\x18\x05 \x03(\t\x12*\n\x04info\x18\x06 \x03(\x0b\x32\x1c.ga4gh.VariantCall.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\xb4\x01\n\x07\x46\x65\x61ture\x12\n\n\x02id\x18\x01 \x01(\t\x12!\n\x08position\x18\x02 \x01(\x0b\x32\x0f.ga4gh.Position\x12\x13\n\x0b\x66\x65\x61tureType\x18\x03 \x01(\t\x12\x32\n\nattributes\x18\x04 \x03(\x0b\x32\x1e.ga4gh.Feature.AttributesEntry\x1a\x31\n\x0f\x41ttributesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\xa9\x01\n\x11VariantCallEffect\x12\n\n\x02id\x18\x01 \x01(\t\x12\x15\n\rvariantCallId\x18\x02 \x01(\t\x12\x30\n\x04info\x18\x03 \x03(\x0b\x32\".ga4gh.VariantCallEffect.InfoEntry\x12\x12\n\nfeatureIds\x18\x04 \x03(\t\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\";\n\tBioSample\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x14\n\x0cindividualId\x18\x03 \x01(\t\"\x96\x01\n\nIndividual\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x39\n\x0cobservations\x18\x03 \x03(\x0b\x32#.ga4gh.Individual.ObservationsEntry\x1a\x33\n\x11ObservationsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01*@\n\x06Strand\x12\x16\n\x12STRAND_UNSPECIFIED\x10\x00\x12\x0e\n\nNEG_STRAND\x10\x01\x12\x0e\n\nPOS_STRAND\x10\x02\x62\x06proto3')
+  serialized_pb=_b('\n\x13simple_schema.proto\x12\x05ga4gh\"\\\n\x08Position\x12\x15\n\rreferenceName\x18\x01 \x01(\t\x12\r\n\x05start\x18\x02 \x01(\x03\x12\x0b\n\x03\x65nd\x18\x03 \x01(\x03\x12\x1d\n\x06strand\x18\x04 \x01(\x0e\x32\r.ga4gh.Strand\"\xb4\x01\n\x07\x46\x65\x61ture\x12\n\n\x02id\x18\x01 \x01(\t\x12!\n\x08position\x18\x02 \x01(\x0b\x32\x0f.ga4gh.Position\x12\x13\n\x0b\x66\x65\x61tureType\x18\x03 \x01(\t\x12\x32\n\nattributes\x18\x04 \x03(\x0b\x32\x1e.ga4gh.Feature.AttributesEntry\x1a\x31\n\x0f\x41ttributesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\xb6\x01\n\x11VariantCallEffect\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x15\n\rvariantCallId\x18\x03 \x01(\t\x12\x0f\n\x07\x66\x65\x61ture\x18\x04 \x01(\t\x12\x30\n\x04info\x18\x05 \x03(\x0b\x32\".ga4gh.VariantCallEffect.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\x9a\x02\n\x0bVariantCall\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x13\n\x0b\x62ioSampleId\x18\x03 \x01(\t\x12!\n\x08position\x18\x04 \x01(\x0b\x32\x0f.ga4gh.Position\x12\x16\n\x0ereferenceBases\x18\x05 \x01(\t\x12\x10\n\x08genotype\x18\x06 \x03(\t\x12\x34\n\x12variantCallEffects\x18\x07 \x03(\x0b\x32\x18.ga4gh.VariantCallEffect\x12*\n\x04info\x18\x08 \x03(\x0b\x32\x1c.ga4gh.VariantCall.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\x8d\x01\n\tBioSample\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x0c\n\x04name\x18\x03 \x01(\t\x12\x14\n\x0cindividualId\x18\x04 \x01(\t\x12\x16\n\x0eindividualName\x18\x05 \x01(\t\x12(\n\x0cvariantCalls\x18\x06 \x03(\x0b\x32\x12.ga4gh.VariantCall\"\xcc\x01\n\nIndividual\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x0c\n\x04name\x18\x03 \x01(\t\x12$\n\nbioSamples\x18\x04 \x03(\x0b\x32\x10.ga4gh.BioSample\x12\x39\n\x0cobservations\x18\x05 \x03(\x0b\x32#.ga4gh.Individual.ObservationsEntry\x1a\x33\n\x11ObservationsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"8\n\x0eIndividualList\x12&\n\x0bindividuals\x18\x01 \x03(\x0b\x32\x11.ga4gh.Individual*@\n\x06Strand\x12\x16\n\x12STRAND_UNSPECIFIED\x10\x00\x12\x0e\n\nNEG_STRAND\x10\x01\x12\x0e\n\nPOS_STRAND\x10\x02\x62\x06proto3')
 )
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
@@ -45,8 +45,8 @@ _STRAND = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   options=None,
-  serialized_start=910,
-  serialized_end=974,
+  serialized_start=1186,
+  serialized_end=1250,
 )
 _sym_db.RegisterEnumDescriptor(_STRAND)
 
@@ -65,7 +65,7 @@ _POSITION = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='reference_name', full_name='ga4gh.Position.reference_name', index=0,
+      name='referenceName', full_name='ga4gh.Position.referenceName', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
@@ -105,110 +105,7 @@ _POSITION = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=30,
-  serialized_end=123,
-)
-
-
-_VARIANTCALL_INFOENTRY = _descriptor.Descriptor(
-  name='InfoEntry',
-  full_name='ga4gh.VariantCall.InfoEntry',
-  filename=None,
-  file=DESCRIPTOR,
-  containing_type=None,
-  fields=[
-    _descriptor.FieldDescriptor(
-      name='key', full_name='ga4gh.VariantCall.InfoEntry.key', index=0,
-      number=1, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='value', full_name='ga4gh.VariantCall.InfoEntry.value', index=1,
-      number=2, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-  ],
-  extensions=[
-  ],
-  nested_types=[],
-  enum_types=[
-  ],
-  options=_descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001')),
-  is_extendable=False,
-  syntax='proto3',
-  extension_ranges=[],
-  oneofs=[
-  ],
-  serialized_start=296,
-  serialized_end=339,
-)
-
-_VARIANTCALL = _descriptor.Descriptor(
-  name='VariantCall',
-  full_name='ga4gh.VariantCall',
-  filename=None,
-  file=DESCRIPTOR,
-  containing_type=None,
-  fields=[
-    _descriptor.FieldDescriptor(
-      name='id', full_name='ga4gh.VariantCall.id', index=0,
-      number=1, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='bioSampleId', full_name='ga4gh.VariantCall.bioSampleId', index=1,
-      number=2, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='position', full_name='ga4gh.VariantCall.position', index=2,
-      number=3, type=11, cpp_type=10, label=1,
-      has_default_value=False, default_value=None,
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='reference_bases', full_name='ga4gh.VariantCall.reference_bases', index=3,
-      number=4, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='genotype', full_name='ga4gh.VariantCall.genotype', index=4,
-      number=5, type=9, cpp_type=9, label=3,
-      has_default_value=False, default_value=[],
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='info', full_name='ga4gh.VariantCall.info', index=5,
-      number=6, type=11, cpp_type=10, label=3,
-      has_default_value=False, default_value=[],
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-  ],
-  extensions=[
-  ],
-  nested_types=[_VARIANTCALL_INFOENTRY, ],
-  enum_types=[
-  ],
-  options=None,
-  is_extendable=False,
-  syntax='proto3',
-  extension_ranges=[],
-  oneofs=[
-  ],
-  serialized_start=126,
-  serialized_end=339,
+  serialized_end=122,
 )
 
 
@@ -245,8 +142,8 @@ _FEATURE_ATTRIBUTESENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=473,
-  serialized_end=522,
+  serialized_start=256,
+  serialized_end=305,
 )
 
 _FEATURE = _descriptor.Descriptor(
@@ -296,8 +193,8 @@ _FEATURE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=342,
-  serialized_end=522,
+  serialized_start=125,
+  serialized_end=305,
 )
 
 
@@ -334,8 +231,8 @@ _VARIANTCALLEFFECT_INFOENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=296,
-  serialized_end=339,
+  serialized_start=447,
+  serialized_end=490,
 )
 
 _VARIANTCALLEFFECT = _descriptor.Descriptor(
@@ -353,22 +250,29 @@ _VARIANTCALLEFFECT = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='variantCallId', full_name='ga4gh.VariantCallEffect.variantCallId', index=1,
+      name='source', full_name='ga4gh.VariantCallEffect.source', index=1,
       number=2, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='info', full_name='ga4gh.VariantCallEffect.info', index=2,
-      number=3, type=11, cpp_type=10, label=3,
-      has_default_value=False, default_value=[],
+      name='variantCallId', full_name='ga4gh.VariantCallEffect.variantCallId', index=2,
+      number=3, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='featureIds', full_name='ga4gh.VariantCallEffect.featureIds', index=3,
-      number=4, type=9, cpp_type=9, label=3,
+      name='feature', full_name='ga4gh.VariantCallEffect.feature', index=3,
+      number=4, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='info', full_name='ga4gh.VariantCallEffect.info', index=4,
+      number=5, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -385,8 +289,125 @@ _VARIANTCALLEFFECT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=525,
-  serialized_end=694,
+  serialized_start=308,
+  serialized_end=490,
+)
+
+
+_VARIANTCALL_INFOENTRY = _descriptor.Descriptor(
+  name='InfoEntry',
+  full_name='ga4gh.VariantCall.InfoEntry',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='key', full_name='ga4gh.VariantCall.InfoEntry.key', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='value', full_name='ga4gh.VariantCall.InfoEntry.value', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  options=_descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001')),
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=447,
+  serialized_end=490,
+)
+
+_VARIANTCALL = _descriptor.Descriptor(
+  name='VariantCall',
+  full_name='ga4gh.VariantCall',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='ga4gh.VariantCall.id', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='source', full_name='ga4gh.VariantCall.source', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='bioSampleId', full_name='ga4gh.VariantCall.bioSampleId', index=2,
+      number=3, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='position', full_name='ga4gh.VariantCall.position', index=3,
+      number=4, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='referenceBases', full_name='ga4gh.VariantCall.referenceBases', index=4,
+      number=5, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='genotype', full_name='ga4gh.VariantCall.genotype', index=5,
+      number=6, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='variantCallEffects', full_name='ga4gh.VariantCall.variantCallEffects', index=6,
+      number=7, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='info', full_name='ga4gh.VariantCall.info', index=7,
+      number=8, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VARIANTCALL_INFOENTRY, ],
+  enum_types=[
+  ],
+  options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=493,
+  serialized_end=775,
 )
 
 
@@ -405,16 +426,37 @@ _BIOSAMPLE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='name', full_name='ga4gh.BioSample.name', index=1,
+      name='source', full_name='ga4gh.BioSample.source', index=1,
       number=2, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='individualId', full_name='ga4gh.BioSample.individualId', index=2,
+      name='name', full_name='ga4gh.BioSample.name', index=2,
       number=3, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='individualId', full_name='ga4gh.BioSample.individualId', index=3,
+      number=4, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='individualName', full_name='ga4gh.BioSample.individualName', index=4,
+      number=5, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='variantCalls', full_name='ga4gh.BioSample.variantCalls', index=5,
+      number=6, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
@@ -430,8 +472,8 @@ _BIOSAMPLE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=696,
-  serialized_end=755,
+  serialized_start=778,
+  serialized_end=919,
 )
 
 
@@ -468,8 +510,8 @@ _INDIVIDUAL_OBSERVATIONSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=857,
-  serialized_end=908,
+  serialized_start=1075,
+  serialized_end=1126,
 )
 
 _INDIVIDUAL = _descriptor.Descriptor(
@@ -487,15 +529,29 @@ _INDIVIDUAL = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='name', full_name='ga4gh.Individual.name', index=1,
+      name='source', full_name='ga4gh.Individual.source', index=1,
       number=2, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='observations', full_name='ga4gh.Individual.observations', index=2,
-      number=3, type=11, cpp_type=10, label=3,
+      name='name', full_name='ga4gh.Individual.name', index=2,
+      number=3, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='bioSamples', full_name='ga4gh.Individual.bioSamples', index=3,
+      number=4, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='observations', full_name='ga4gh.Individual.observations', index=4,
+      number=5, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -512,27 +568,63 @@ _INDIVIDUAL = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=758,
-  serialized_end=908,
+  serialized_start=922,
+  serialized_end=1126,
+)
+
+
+_INDIVIDUALLIST = _descriptor.Descriptor(
+  name='IndividualList',
+  full_name='ga4gh.IndividualList',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='individuals', full_name='ga4gh.IndividualList.individuals', index=0,
+      number=1, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1128,
+  serialized_end=1184,
 )
 
 _POSITION.fields_by_name['strand'].enum_type = _STRAND
-_VARIANTCALL_INFOENTRY.containing_type = _VARIANTCALL
-_VARIANTCALL.fields_by_name['position'].message_type = _POSITION
-_VARIANTCALL.fields_by_name['info'].message_type = _VARIANTCALL_INFOENTRY
 _FEATURE_ATTRIBUTESENTRY.containing_type = _FEATURE
 _FEATURE.fields_by_name['position'].message_type = _POSITION
 _FEATURE.fields_by_name['attributes'].message_type = _FEATURE_ATTRIBUTESENTRY
 _VARIANTCALLEFFECT_INFOENTRY.containing_type = _VARIANTCALLEFFECT
 _VARIANTCALLEFFECT.fields_by_name['info'].message_type = _VARIANTCALLEFFECT_INFOENTRY
+_VARIANTCALL_INFOENTRY.containing_type = _VARIANTCALL
+_VARIANTCALL.fields_by_name['position'].message_type = _POSITION
+_VARIANTCALL.fields_by_name['variantCallEffects'].message_type = _VARIANTCALLEFFECT
+_VARIANTCALL.fields_by_name['info'].message_type = _VARIANTCALL_INFOENTRY
+_BIOSAMPLE.fields_by_name['variantCalls'].message_type = _VARIANTCALL
 _INDIVIDUAL_OBSERVATIONSENTRY.containing_type = _INDIVIDUAL
+_INDIVIDUAL.fields_by_name['bioSamples'].message_type = _BIOSAMPLE
 _INDIVIDUAL.fields_by_name['observations'].message_type = _INDIVIDUAL_OBSERVATIONSENTRY
+_INDIVIDUALLIST.fields_by_name['individuals'].message_type = _INDIVIDUAL
 DESCRIPTOR.message_types_by_name['Position'] = _POSITION
-DESCRIPTOR.message_types_by_name['VariantCall'] = _VARIANTCALL
 DESCRIPTOR.message_types_by_name['Feature'] = _FEATURE
 DESCRIPTOR.message_types_by_name['VariantCallEffect'] = _VARIANTCALLEFFECT
+DESCRIPTOR.message_types_by_name['VariantCall'] = _VARIANTCALL
 DESCRIPTOR.message_types_by_name['BioSample'] = _BIOSAMPLE
 DESCRIPTOR.message_types_by_name['Individual'] = _INDIVIDUAL
+DESCRIPTOR.message_types_by_name['IndividualList'] = _INDIVIDUALLIST
 DESCRIPTOR.enum_types_by_name['Strand'] = _STRAND
 
 Position = _reflection.GeneratedProtocolMessageType('Position', (_message.Message,), dict(
@@ -541,21 +633,6 @@ Position = _reflection.GeneratedProtocolMessageType('Position', (_message.Messag
   # @@protoc_insertion_point(class_scope:ga4gh.Position)
   ))
 _sym_db.RegisterMessage(Position)
-
-VariantCall = _reflection.GeneratedProtocolMessageType('VariantCall', (_message.Message,), dict(
-
-  InfoEntry = _reflection.GeneratedProtocolMessageType('InfoEntry', (_message.Message,), dict(
-    DESCRIPTOR = _VARIANTCALL_INFOENTRY,
-    __module__ = 'simple_schema_pb2'
-    # @@protoc_insertion_point(class_scope:ga4gh.VariantCall.InfoEntry)
-    ))
-  ,
-  DESCRIPTOR = _VARIANTCALL,
-  __module__ = 'simple_schema_pb2'
-  # @@protoc_insertion_point(class_scope:ga4gh.VariantCall)
-  ))
-_sym_db.RegisterMessage(VariantCall)
-_sym_db.RegisterMessage(VariantCall.InfoEntry)
 
 Feature = _reflection.GeneratedProtocolMessageType('Feature', (_message.Message,), dict(
 
@@ -587,6 +664,21 @@ VariantCallEffect = _reflection.GeneratedProtocolMessageType('VariantCallEffect'
 _sym_db.RegisterMessage(VariantCallEffect)
 _sym_db.RegisterMessage(VariantCallEffect.InfoEntry)
 
+VariantCall = _reflection.GeneratedProtocolMessageType('VariantCall', (_message.Message,), dict(
+
+  InfoEntry = _reflection.GeneratedProtocolMessageType('InfoEntry', (_message.Message,), dict(
+    DESCRIPTOR = _VARIANTCALL_INFOENTRY,
+    __module__ = 'simple_schema_pb2'
+    # @@protoc_insertion_point(class_scope:ga4gh.VariantCall.InfoEntry)
+    ))
+  ,
+  DESCRIPTOR = _VARIANTCALL,
+  __module__ = 'simple_schema_pb2'
+  # @@protoc_insertion_point(class_scope:ga4gh.VariantCall)
+  ))
+_sym_db.RegisterMessage(VariantCall)
+_sym_db.RegisterMessage(VariantCall.InfoEntry)
+
 BioSample = _reflection.GeneratedProtocolMessageType('BioSample', (_message.Message,), dict(
   DESCRIPTOR = _BIOSAMPLE,
   __module__ = 'simple_schema_pb2'
@@ -609,13 +701,20 @@ Individual = _reflection.GeneratedProtocolMessageType('Individual', (_message.Me
 _sym_db.RegisterMessage(Individual)
 _sym_db.RegisterMessage(Individual.ObservationsEntry)
 
+IndividualList = _reflection.GeneratedProtocolMessageType('IndividualList', (_message.Message,), dict(
+  DESCRIPTOR = _INDIVIDUALLIST,
+  __module__ = 'simple_schema_pb2'
+  # @@protoc_insertion_point(class_scope:ga4gh.IndividualList)
+  ))
+_sym_db.RegisterMessage(IndividualList)
 
-_VARIANTCALL_INFOENTRY.has_options = True
-_VARIANTCALL_INFOENTRY._options = _descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001'))
+
 _FEATURE_ATTRIBUTESENTRY.has_options = True
 _FEATURE_ATTRIBUTESENTRY._options = _descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001'))
 _VARIANTCALLEFFECT_INFOENTRY.has_options = True
 _VARIANTCALLEFFECT_INFOENTRY._options = _descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001'))
+_VARIANTCALL_INFOENTRY.has_options = True
+_VARIANTCALL_INFOENTRY._options = _descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001'))
 _INDIVIDUAL_OBSERVATIONSENTRY.has_options = True
 _INDIVIDUAL_OBSERVATIONSENTRY._options = _descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001'))
 # @@protoc_insertion_point(module_scope)
