@@ -5,7 +5,7 @@ This program converts TCGA pan cancer maf files and patient summary information 
 JSON-encoded protobuf data based on the simple_schema.proto schema.
 '''
 
-import simple_schema_pb2 as schema
+import variant_pb2 as schema
 from google.protobuf import json_format
 import json, sys, argparse, os
 import csv #for convert_tcga_patients
@@ -20,12 +20,13 @@ def parse_args(args):
         formatter_class=argparse.RawDescriptionHelpFormatter)
 
     # Now add all the options to it
-    parser.add_argument("--maf", type=str, default=os.path.join(os.getcwd(), 'pancan12_cleaned.maf'),
-                        help="Path to the maf you want to import")
-    parser.add_argument("--tsv", type=str, default=os.path.join(os.getcwd(), 'pancan12_cleaned.tsv'),
-                        help="Path to the tsv you want to import")
-    parser.add_argument("--outfile", type=str, default=os.path.join(os.getcwd(), 'pancan12_cleaned_pb.json'),
-                        help="Path to output json file")
+    parser.add_argument('--maf', type=str, default=os.path.join(os.getcwd(), 'pancan12_cleaned.maf'),
+                        help='Path to the maf you want to import')
+    parser.add_argument('--tsv', type=str, default=os.path.join(os.getcwd(), 'pancan12_cleaned.tsv'),
+                        help='Path to the tsv you want to import')
+    parser.add_argument('--out', type=str, default=os.path.join(os.getcwd(), 'pancan12_cleaned_pb.json'),
+                        help='Path to output json file')
+    parser.add_argument('--format', type=str, default='json', help='Format of output: json or pbf (binary)')
     return parser.parse_args(args)
 
 def group_by(f, l):
@@ -39,18 +40,17 @@ def group_by(f, l):
     return d
 
 def find_individual(state, source, individual_name):
-    individual = state["individuals"].get(individual_name)
+    individual = state['individuals'].get(individual_name)
     if individual is None:
         individual = schema.Individual()
-        individual.id = str(uuid.uuid1())
         individual.name = individual_name
         individual.source = source
-        state["individuals"][individual_name] = individual
+        state['individuals'][individual_name] = individual
 
     return individual
 
 def process_line(state, source, line_raw):
-    line = line_raw.rstrip().split("\t")
+    line = line_raw.rstrip().split('\t')
 
     # Information indices for VariantCall, BioSample, and Individual
     hugo_symbol = 0
@@ -87,72 +87,73 @@ def process_line(state, source, line_raw):
     domain = 49
 
     # Construct the sample and individual names
-    biosample_name = line[tumor_sample_barcode] + " " + line[matched_norm_sample_barcode] #biosample name: "TCGA-A1-A0SB-01A-11D-A142-09 TCGA-A1-A0SB-10B-01D-A142-09"
-    biosample_id = "TCGA:" + biosample_name
+    # example biosample name: 'TCGA-A1-A0SB-01A-11D-A142-09 TCGA-A1-A0SB-10B-01D-A142-09'
+    biosample_name = line[tumor_sample_barcode] + ' ' + line[matched_norm_sample_barcode]
     individual_name = biosample_name[0:12]
 
     # Find or create the Individual
     individual = find_individual(state, source, individual_name)
 
     # Find or create the BioSample
-    biosample = state["biosamples"].get(biosample_name)
+    biosample = state['biosamples'].get(biosample_name)
     if biosample is None:
         biosample = schema.BioSample()
-        biosample.id = str(uuid.uuid1())
         biosample.name = biosample_name
         biosample.source = source
-        biosample.individualId = individual.id
         biosample.individualName = individual.name
-        state["biosamples"][biosample_name] = biosample
+        state['biosamples'][biosample_name] = biosample
 
     # Create a VariantCall
     variant_call = schema.VariantCall()
-    variant_call.id = str(uuid.uuid1())
     variant_call.source = source
-    variant_call.bioSampleId = biosample.id
-    variant_call.position.referenceName = line[reference_name] # e.g. 10
+    variant_call.position.reference = line[reference_name] # e.g. 10
     variant_call.position.start = int(line[start]) # e.g. 116247760
     variant_call.position.end = int(line[end]) # e.g. 116247760
+    variant_call.position.strand = line[strand]
 
-    # assign variant_call.position.strand
-    if line[strand] == "+":
-        variant_call.position.strand = 2 # Strand.POS_STRAND
-    elif line[strand] == "-":
-        variant_call.position.strand = 1 # Strand.NEG_STRAND
-    else:
-        variant_call.position.strand = 0 # Strand.STRAND_UNSPECIFIED
-
-    variant_call.referenceBases = line[reference_allele] # Reference_Allele, e.g. "T"
-    variant_call.genotype.append(line[tumor_seq_allele1]) # Tumor_Seq_Allele1, e.g. "T"
-    variant_call.genotype.append(line[tumor_seq_allele2]) # Tumor_Seq_Allele2, e.g. "C"
-
-    variant_call.info["NCBIBuild"] = line[ncbi_build] # e.g. "37"
-    variant_call.info["VariantClassification"] = line[variant_classification] # e.g. "Missense_Mutation"
-    variant_call.info["MatchNormSeqAllele1"] = line[match_norm_seq_allele1] # e.g. "T"
-    variant_call.info["MatchNormSeqAllele2"] = line[match_norm_seq_allele2] # e.g. "T"
-    variant_call.info["MutationStatus"] = line[mutation_status] # e.g. "Somatic"
-    variant_call.info["SequencingPhase"] = line[sequencing_phase] # e.g. "Phase_IV"
-    variant_call.info["SequenceSource"] = line[sequence_source] # e.g. "Capture"
-    variant_call.info["BAMFile"] = line[bam_file] # e.g. "dbGAP"
+    # # assign variant_call.position.strand
+    # if line[strand] == '+':
+    #     variant_call.position.strand = 2 # Strand.POS_STRAND
+    # elif line[strand] == '-':
+    #     variant_call.position.strand = 1 # Strand.NEG_STRAND
+    # else:
+    #     variant_call.position.strand = 0 # Strand.STRAND_UNSPECIFIED
+    
+    variant_call.referenceAllele = line[reference_allele] # Reference_Allele, e.g. 'T'
+    variant_call.normalAllele1 = line[match_norm_seq_allele1]
+    variant_call.normalAllele2 = line[match_norm_seq_allele2]
+    variant_call.tumorAllele1 = line[tumor_seq_allele1]
+    variant_call.tumorAllele2 = line[tumor_seq_allele2]
+    variant_call.variantClassification = line[variant_classification] # e.g. 'Missense_Mutation'
+    
+    variant_call.info['ncbiBuild'] = line[ncbi_build] # e.g. '37'
+    variant_call.info['mutationStatus'] = line[mutation_status] # e.g. 'Somatic'
+    variant_call.info['sequencingPhase'] = line[sequencing_phase] # e.g. 'Phase_IV'
+    variant_call.info['sequenceSource'] = line[sequence_source] # e.g. 'Capture'
+    variant_call.info['bamFile'] = line[bam_file] # e.g. 'dbGAP'
 
     # Now create a VariantCallEffect
     variant_call_effect = schema.VariantCallEffect()
-    variant_call_effect.id = str(uuid.uuid1())
     variant_call_effect.source = source
-    variant_call_effect.variantCallId = variant_call.id
     variant_call_effect.feature = line[hugo_symbol]
-    variant_call_effect.info["transcriptName"] = line[transcript_name]
-    variant_call_effect.info["transcriptSpecies"] = line[transcript_species]
-    variant_call_effect.info["transcriptSource"] = line[transcript_source]
-    variant_call_effect.info["transcriptVersion"] = line[transcript_version]
-    variant_call_effect.info["strand"] = line[vce_strand] #not sure what this means... has to do with sequencing process perhaps?
-    variant_call_effect.info["transcriptStatus"] = line[transcript_status]
-    variant_call_effect.info["trvType"] = line[trv_type]
-    variant_call_effect.info["cPosition"] = line[c_position]
-    variant_call_effect.info["aminoAcidChange"] = line[amino_acid_change]
-    variant_call_effect.info["ucscCons"] = line[ucsc_cons]
-    variant_call_effect.info["domain"] = line[domain]
-    variant_call_effect.info["VariantType"] = line[variant_type] #e.g. "SNP"
+    variant_call_effect.variantType = line[variant_type] #e.g. 'SNP'
+    variant_call_effect.transcriptSpecies = line[transcript_species]
+    variant_call_effect.transcriptName = line[transcript_name]
+    variant_call_effect.transcriptSource = line[transcript_source]
+    variant_call_effect.transcriptStatus = line[transcript_status]
+    variant_call_effect.transcriptVersion = line[transcript_version]
+    variant_call_effect.cPosition = line[c_position]
+    variant_call_effect.aminoAcidChange = line[amino_acid_change]
+    variant_call_effect.strand = line[vce_strand] #not sure what this means... has to do with sequencing process perhaps?
+    variant_call_effect.info['trvType'] = line[trv_type]
+    variant_call_effect.info['ucscCons'] = line[ucsc_cons]
+
+    if line[domain] == 'NULL' or line[domain] == '-':
+        domains = []
+    else:
+        domains = line[domain].split(',')
+    for domain in domains:
+        variant_call_effect.domains.append(domain)
 
     variant_call.variantCallEffects.extend([variant_call_effect])
     biosample.variantCalls.extend([variant_call])
@@ -162,7 +163,7 @@ def process_line(state, source, line_raw):
 def convert_maf(state, mafpath, source):
     inhandle = open(mafpath)
     for line in inhandle:
-        if not line.startswith("Hugo_Symbol") and not line.startswith("#"):
+        if not line.startswith('Hugo_Symbol') and not line.startswith('#'):
             state = process_line(state, source, line)
     inhandle.close()
 
@@ -172,41 +173,46 @@ def convert_tcga_patients(state, tcgapath, source):
     with open(tcgapath) as patient_file:
         reader = csv.DictReader(patient_file, delimiter='\t')
         for row in reader:
-            individual = find_individual(state, source, row["barcode"])
+            individual = find_individual(state, source, row['barcode'])
             for key, value in row.iteritems():
-                if value == "":
+                if value == '':
                     continue
                 else:
                     individual.observations[key] = value
 
     return state
 
-def write_individual_list(state, outpath):
+def write_individual_list(state, outpath, format):
     individual_list = schema.IndividualList()
-    biosample_groups = group_by(lambda i: i.individualName, state["biosamples"].values())
+    biosample_groups = group_by(lambda i: i.individualName, state['biosamples'].values())
 
-    for individual_name in state["individuals"]:
-        individual = state["individuals"][individual_name]
+    for individual_name in state['individuals']:
+        individual = state['individuals'][individual_name]
         biosamples = biosample_groups.get(individual_name)
         if biosamples is not None:
             individual.bioSamples.extend(biosamples)
         individual_list.individuals.extend([individual])
 
-    outhandle = open(outpath, "w")
-    outhandle.write(json_format.MessageToJson(individual_list))
+    if format == 'json':
+        outhandle = open(outpath, 'w')
+        outhandle.write(json_format.MessageToJson(individual_list))
+    else:
+        outhandle = open(outpath, 'wb')
+        outhandle.write(individual_list.SerializeToString())
+        
     outhandle.close()
 
-def convert_maf_and_tsv_to_profobuf(mafpath, tsvpath, outpath):
-    state = {"individuals": {}, "biosamples": {}}
-    source = "TCGA"
+def convert_maf_and_tsv_to_profobuf(mafpath, tsvpath, outpath, format):
+    state = {'individuals': {}, 'biosamples': {}}
+    source = 'TCGA'
 
     if mafpath:
         convert_maf(state, mafpath, source)
     if tsvpath:
         convert_tcga_patients(state, tsvpath, source)
 
-    write_individual_list(state, outpath)
+    write_individual_list(state, outpath, format)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     options = parse_args(sys.argv)
-    convert_maf_and_tsv_to_profobuf(options.maf, options.tsv, options.outfile)
+    convert_maf_and_tsv_to_profobuf(options.maf, options.tsv, options.out, options.format)
