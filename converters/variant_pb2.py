@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='variant.proto',
   package='bmeg.gaea.schema',
   syntax='proto3',
-  serialized_pb=_b('\n\rvariant.proto\x12\x10\x62meg.gaea.schema\"I\n\x08Position\x12\x11\n\treference\x18\x01 \x01(\t\x12\r\n\x05start\x18\x02 \x01(\x03\x12\x0b\n\x03\x65nd\x18\x03 \x01(\x03\x12\x0e\n\x06strand\x18\x04 \x01(\t\"\xbe\x01\n\x07\x46\x65\x61ture\x12,\n\x08position\x18\x01 \x01(\x0b\x32\x1a.bmeg.gaea.schema.Position\x12\x13\n\x0b\x66\x65\x61tureType\x18\x02 \x01(\t\x12=\n\nattributes\x18\x03 \x03(\x0b\x32).bmeg.gaea.schema.Feature.AttributesEntry\x1a\x31\n\x0f\x41ttributesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\x82\x03\n\x11VariantCallEffect\x12\x0e\n\x06source\x18\x01 \x01(\t\x12\x0f\n\x07\x66\x65\x61ture\x18\x02 \x01(\t\x12\x0f\n\x07\x64omains\x18\x03 \x03(\t\x12\x13\n\x0bvariantType\x18\x04 \x01(\t\x12\x19\n\x11transcriptSpecies\x18\x05 \x01(\t\x12\x16\n\x0etranscriptName\x18\x06 \x01(\t\x12\x18\n\x10transcriptSource\x18\x07 \x01(\t\x12\x18\n\x10transcriptStatus\x18\x08 \x01(\t\x12\x19\n\x11transcriptVersion\x18\t \x01(\t\x12\x11\n\tcPosition\x18\n \x01(\t\x12\x17\n\x0f\x61minoAcidChange\x18\x0b \x01(\t\x12\x0e\n\x06strand\x18\x0c \x01(\t\x12;\n\x04info\x18\r \x03(\x0b\x32-.bmeg.gaea.schema.VariantCallEffect.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\x82\x03\n\x0bVariantCall\x12\x0e\n\x06source\x18\x01 \x01(\t\x12,\n\x08position\x18\x02 \x01(\x0b\x32\x1a.bmeg.gaea.schema.Position\x12\x17\n\x0freferenceAllele\x18\x03 \x01(\t\x12\x15\n\rnormalAllele1\x18\x04 \x01(\t\x12\x15\n\rnormalAllele2\x18\x05 \x01(\t\x12\x14\n\x0ctumorAllele1\x18\x06 \x01(\t\x12\x14\n\x0ctumorAllele2\x18\x07 \x01(\t\x12\x1d\n\x15variantClassification\x18\x08 \x01(\t\x12?\n\x12variantCallEffects\x18\t \x03(\x0b\x32#.bmeg.gaea.schema.VariantCallEffect\x12\x35\n\x04info\x18\n \x03(\x0b\x32\'.bmeg.gaea.schema.VariantCall.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"v\n\tBioSample\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x16\n\x0eindividualName\x18\x03 \x01(\t\x12\x33\n\x0cvariantCalls\x18\x04 \x03(\x0b\x32\x1d.bmeg.gaea.schema.VariantCall\"\xd6\x01\n\nIndividual\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12/\n\nbioSamples\x18\x03 \x03(\x0b\x32\x1b.bmeg.gaea.schema.BioSample\x12\x44\n\x0cobservations\x18\x04 \x03(\x0b\x32..bmeg.gaea.schema.Individual.ObservationsEntry\x1a\x33\n\x11ObservationsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"C\n\x0eIndividualList\x12\x31\n\x0bindividuals\x18\x01 \x03(\x0b\x32\x1c.bmeg.gaea.schema.Individualb\x06proto3')
+  serialized_pb=_b('\n\rvariant.proto\x12\x10\x62meg.gaea.schema\"I\n\x08Position\x12\x11\n\treference\x18\x01 \x01(\t\x12\r\n\x05start\x18\x02 \x01(\x03\x12\x0b\n\x03\x65nd\x18\x03 \x01(\x03\x12\x0e\n\x06strand\x18\x04 \x01(\t\"\xbe\x01\n\x07\x46\x65\x61ture\x12,\n\x08position\x18\x01 \x01(\x0b\x32\x1a.bmeg.gaea.schema.Position\x12\x13\n\x0b\x66\x65\x61tureType\x18\x02 \x01(\t\x12=\n\nattributes\x18\x03 \x03(\x0b\x32).bmeg.gaea.schema.Feature.AttributesEntry\x1a\x31\n\x0f\x41ttributesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\xf7\x01\n\x11VariantCallEffect\x12\x0e\n\x06source\x18\x01 \x01(\t\x12\x0f\n\x07\x66\x65\x61ture\x18\x02 \x01(\t\x12\x1d\n\x15variantClassification\x18\x03 \x01(\t\x12\x0f\n\x07\x64omains\x18\x04 \x03(\t\x12\x0f\n\x07\x64\x62snpRS\x18\x05 \x01(\t\x12\x16\n\x0e\x64\x62snpValStatus\x18\x06 \x01(\t\x12;\n\x04info\x18\x07 \x03(\x0b\x32-.bmeg.gaea.schema.VariantCallEffect.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\xc3\x03\n\x0bVariantCall\x12\x0e\n\x06source\x18\x01 \x01(\t\x12,\n\x08position\x18\x02 \x01(\x0b\x32\x1a.bmeg.gaea.schema.Position\x12\x13\n\x0bvariantType\x18\x03 \x01(\t\x12\x17\n\x0freferenceAllele\x18\x04 \x01(\t\x12\x15\n\rnormalAllele1\x18\x05 \x01(\t\x12\x15\n\rnormalAllele2\x18\x06 \x01(\t\x12\x14\n\x0ctumorAllele1\x18\x07 \x01(\t\x12\x14\n\x0ctumorAllele2\x18\x08 \x01(\t\x12\x11\n\tsequencer\x18\t \x01(\t\x12\x17\n\x0ftumorSampleUUID\x18\n \x01(\t\x12\x1d\n\x15matchedNormSampleUUID\x18\x0b \x01(\t\x12?\n\x12variantCallEffects\x18\x0c \x03(\x0b\x32#.bmeg.gaea.schema.VariantCallEffect\x12\x35\n\x04info\x18\r \x03(\x0b\x32\'.bmeg.gaea.schema.VariantCall.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"v\n\tBioSample\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x16\n\x0eindividualName\x18\x03 \x01(\t\x12\x33\n\x0cvariantCalls\x18\x04 \x03(\x0b\x32\x1d.bmeg.gaea.schema.VariantCall\"\xd6\x01\n\nIndividual\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12/\n\nbioSamples\x18\x03 \x03(\x0b\x32\x1b.bmeg.gaea.schema.BioSample\x12\x44\n\x0cobservations\x18\x04 \x03(\x0b\x32..bmeg.gaea.schema.Individual.ObservationsEntry\x1a\x33\n\x11ObservationsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"C\n\x0eIndividualList\x12\x31\n\x0bindividuals\x18\x01 \x03(\x0b\x32\x1c.bmeg.gaea.schema.Individualb\x06proto3')
 )
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
@@ -193,8 +193,8 @@ _VARIANTCALLEFFECT_INFOENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=647,
-  serialized_end=690,
+  serialized_start=508,
+  serialized_end=551,
 )
 
 _VARIANTCALLEFFECT = _descriptor.Descriptor(
@@ -219,78 +219,36 @@ _VARIANTCALLEFFECT = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='domains', full_name='bmeg.gaea.schema.VariantCallEffect.domains', index=2,
-      number=3, type=9, cpp_type=9, label=3,
-      has_default_value=False, default_value=[],
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='variantType', full_name='bmeg.gaea.schema.VariantCallEffect.variantType', index=3,
-      number=4, type=9, cpp_type=9, label=1,
+      name='variantClassification', full_name='bmeg.gaea.schema.VariantCallEffect.variantClassification', index=2,
+      number=3, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='transcriptSpecies', full_name='bmeg.gaea.schema.VariantCallEffect.transcriptSpecies', index=4,
+      name='domains', full_name='bmeg.gaea.schema.VariantCallEffect.domains', index=3,
+      number=4, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='dbsnpRS', full_name='bmeg.gaea.schema.VariantCallEffect.dbsnpRS', index=4,
       number=5, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='transcriptName', full_name='bmeg.gaea.schema.VariantCallEffect.transcriptName', index=5,
+      name='dbsnpValStatus', full_name='bmeg.gaea.schema.VariantCallEffect.dbsnpValStatus', index=5,
       number=6, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='transcriptSource', full_name='bmeg.gaea.schema.VariantCallEffect.transcriptSource', index=6,
-      number=7, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='transcriptStatus', full_name='bmeg.gaea.schema.VariantCallEffect.transcriptStatus', index=7,
-      number=8, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='transcriptVersion', full_name='bmeg.gaea.schema.VariantCallEffect.transcriptVersion', index=8,
-      number=9, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='cPosition', full_name='bmeg.gaea.schema.VariantCallEffect.cPosition', index=9,
-      number=10, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='aminoAcidChange', full_name='bmeg.gaea.schema.VariantCallEffect.aminoAcidChange', index=10,
-      number=11, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='strand', full_name='bmeg.gaea.schema.VariantCallEffect.strand', index=11,
-      number=12, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='info', full_name='bmeg.gaea.schema.VariantCallEffect.info', index=12,
-      number=13, type=11, cpp_type=10, label=3,
+      name='info', full_name='bmeg.gaea.schema.VariantCallEffect.info', index=6,
+      number=7, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -308,7 +266,7 @@ _VARIANTCALLEFFECT = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=304,
-  serialized_end=690,
+  serialized_end=551,
 )
 
 
@@ -345,8 +303,8 @@ _VARIANTCALL_INFOENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=647,
-  serialized_end=690,
+  serialized_start=508,
+  serialized_end=551,
 )
 
 _VARIANTCALL = _descriptor.Descriptor(
@@ -371,57 +329,78 @@ _VARIANTCALL = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='referenceAllele', full_name='bmeg.gaea.schema.VariantCall.referenceAllele', index=2,
+      name='variantType', full_name='bmeg.gaea.schema.VariantCall.variantType', index=2,
       number=3, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='normalAllele1', full_name='bmeg.gaea.schema.VariantCall.normalAllele1', index=3,
+      name='referenceAllele', full_name='bmeg.gaea.schema.VariantCall.referenceAllele', index=3,
       number=4, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='normalAllele2', full_name='bmeg.gaea.schema.VariantCall.normalAllele2', index=4,
+      name='normalAllele1', full_name='bmeg.gaea.schema.VariantCall.normalAllele1', index=4,
       number=5, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='tumorAllele1', full_name='bmeg.gaea.schema.VariantCall.tumorAllele1', index=5,
+      name='normalAllele2', full_name='bmeg.gaea.schema.VariantCall.normalAllele2', index=5,
       number=6, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='tumorAllele2', full_name='bmeg.gaea.schema.VariantCall.tumorAllele2', index=6,
+      name='tumorAllele1', full_name='bmeg.gaea.schema.VariantCall.tumorAllele1', index=6,
       number=7, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='variantClassification', full_name='bmeg.gaea.schema.VariantCall.variantClassification', index=7,
+      name='tumorAllele2', full_name='bmeg.gaea.schema.VariantCall.tumorAllele2', index=7,
       number=8, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='variantCallEffects', full_name='bmeg.gaea.schema.VariantCall.variantCallEffects', index=8,
-      number=9, type=11, cpp_type=10, label=3,
+      name='sequencer', full_name='bmeg.gaea.schema.VariantCall.sequencer', index=8,
+      number=9, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='tumorSampleUUID', full_name='bmeg.gaea.schema.VariantCall.tumorSampleUUID', index=9,
+      number=10, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='matchedNormSampleUUID', full_name='bmeg.gaea.schema.VariantCall.matchedNormSampleUUID', index=10,
+      number=11, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='variantCallEffects', full_name='bmeg.gaea.schema.VariantCall.variantCallEffects', index=11,
+      number=12, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='info', full_name='bmeg.gaea.schema.VariantCall.info', index=9,
-      number=10, type=11, cpp_type=10, label=3,
+      name='info', full_name='bmeg.gaea.schema.VariantCall.info', index=12,
+      number=13, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -438,8 +417,8 @@ _VARIANTCALL = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=693,
-  serialized_end=1079,
+  serialized_start=554,
+  serialized_end=1005,
 )
 
 
@@ -490,8 +469,8 @@ _BIOSAMPLE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1081,
-  serialized_end=1199,
+  serialized_start=1007,
+  serialized_end=1125,
 )
 
 
@@ -528,8 +507,8 @@ _INDIVIDUAL_OBSERVATIONSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1365,
-  serialized_end=1416,
+  serialized_start=1291,
+  serialized_end=1342,
 )
 
 _INDIVIDUAL = _descriptor.Descriptor(
@@ -579,8 +558,8 @@ _INDIVIDUAL = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1202,
-  serialized_end=1416,
+  serialized_start=1128,
+  serialized_end=1342,
 )
 
 
@@ -610,8 +589,8 @@ _INDIVIDUALLIST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1418,
-  serialized_end=1485,
+  serialized_start=1344,
+  serialized_end=1411,
 )
 
 _FEATURE_ATTRIBUTESENTRY.containing_type = _FEATURE

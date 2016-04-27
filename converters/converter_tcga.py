@@ -20,12 +20,9 @@ def parse_args(args):
         formatter_class=argparse.RawDescriptionHelpFormatter)
 
     # Now add all the options to it
-    parser.add_argument('--maf', type=str, default=os.path.join(os.getcwd(), 'pancan12_cleaned.maf'),
-                        help='Path to the maf you want to import')
-    parser.add_argument('--tsv', type=str, default=os.path.join(os.getcwd(), 'pancan12_cleaned.tsv'),
-                        help='Path to the tsv you want to import')
-    parser.add_argument('--out', type=str, default=os.path.join(os.getcwd(), 'pancan12_cleaned_pb.json'),
-                        help='Path to output json file')
+    parser.add_argument('--maf', type=str, help='Path to the maf you want to import')
+    parser.add_argument('--tsv', type=str, help='Path to the tsv you want to import')
+    parser.add_argument('--out', type=str, help='Path to output json file')
     parser.add_argument('--format', type=str, default='json', help='Format of output: json or pbf (binary)')
     return parser.parse_args(args)
 
@@ -50,16 +47,12 @@ def find_individual(state, source, individual_name):
     return individual
 
 def process_line(state, source, line_raw):
-    line = line_raw.rstrip().split('\t')
-
     # Information indices for VariantCall, BioSample, and Individual
-    hugo_symbol = 0
     ncbi_build = 3
     reference_name = 4
     start = 5
     end = 6
     strand = 7
-    variant_classification = 8
     variant_type = 9
     reference_allele = 10
     tumor_seq_allele1 = 11
@@ -68,12 +61,22 @@ def process_line(state, source, line_raw):
     matched_norm_sample_barcode = 16
     match_norm_seq_allele1 = 17
     match_norm_seq_allele2 = 18
+    verification_status = 23
+    validation_status = 24
     mutation_status = 25
     sequencing_phase = 26
     sequence_source = 27
     bam_file = 30
+    sequencer = 31
+    tumor_sample_uuid = 32
+    matched_norm_sample_uuid = 33
 
     # Information indices for VariantCallEffect and Feature
+    hugo_symbol = 0
+    variant_classification = 8
+    dbsnp_rs = 13
+    dbsnp_val_status = 14
+
     transcript_name = 39
     transcript_species = 40
     transcript_source = 41
@@ -85,6 +88,9 @@ def process_line(state, source, line_raw):
     amino_acid_change = 47
     ucsc_cons = 48
     domain = 49
+
+    # --------------------------------------------
+    line = line_raw.rstrip().split('\t')
 
     # Construct the sample and individual names
     # example biosample name: 'TCGA-A1-A0SB-01A-11D-A142-09 TCGA-A1-A0SB-10B-01D-A142-09'
@@ -124,7 +130,7 @@ def process_line(state, source, line_raw):
     variant_call.normalAllele2 = line[match_norm_seq_allele2]
     variant_call.tumorAllele1 = line[tumor_seq_allele1]
     variant_call.tumorAllele2 = line[tumor_seq_allele2]
-    variant_call.variantClassification = line[variant_classification] # e.g. 'Missense_Mutation'
+    variant_call.variantType = line[variant_type] #e.g. 'SNP'
     
     variant_call.info['ncbiBuild'] = line[ncbi_build] # e.g. '37'
     variant_call.info['mutationStatus'] = line[mutation_status] # e.g. 'Somatic'
@@ -136,24 +142,29 @@ def process_line(state, source, line_raw):
     variant_call_effect = schema.VariantCallEffect()
     variant_call_effect.source = source
     variant_call_effect.feature = line[hugo_symbol]
-    variant_call_effect.variantType = line[variant_type] #e.g. 'SNP'
-    variant_call_effect.transcriptSpecies = line[transcript_species]
-    variant_call_effect.transcriptName = line[transcript_name]
-    variant_call_effect.transcriptSource = line[transcript_source]
-    variant_call_effect.transcriptStatus = line[transcript_status]
-    variant_call_effect.transcriptVersion = line[transcript_version]
-    variant_call_effect.cPosition = line[c_position]
-    variant_call_effect.aminoAcidChange = line[amino_acid_change]
-    variant_call_effect.strand = line[vce_strand] #not sure what this means... has to do with sequencing process perhaps?
-    variant_call_effect.info['trvType'] = line[trv_type]
-    variant_call_effect.info['ucscCons'] = line[ucsc_cons]
+    variant_call_effect.variantClassification = line[variant_classification] # e.g. 'Missense_Mutation'
 
-    if line[domain] == 'NULL' or line[domain] == '-':
-        domains = []
-    else:
-        domains = line[domain].split(',')
-    for domain in domains:
-        variant_call_effect.domains.append(domain)
+    try:
+        variant_call_effect.info['transcriptSpecies'] = line[transcript_species]
+        variant_call_effect.info['transcriptName'] = line[transcript_name]
+        variant_call_effect.info['transcriptSource'] = line[transcript_source]
+        variant_call_effect.info['transcriptStatus'] = line[transcript_status]
+        variant_call_effect.info['transcriptVersion'] = line[transcript_version]
+        variant_call_effect.info['cPosition'] = line[c_position]
+        variant_call_effect.info['aminoAcidChange'] = line[amino_acid_change]
+        variant_call_effect.info['strand'] = line[vce_strand] #not sure what this means... has to do with sequencing process perhaps?
+        variant_call_effect.info['trvType'] = line[trv_type]
+        variant_call_effect.info['ucscCons'] = line[ucsc_cons]
+
+        if line[domain] == 'NULL' or line[domain] == '-':
+            domains = []
+        else:
+            domains = line[domain].split(',')
+        for domain in domains:
+            variant_call_effect.domains.append(domain)
+
+    except Exception as ex:
+        print(ex)
 
     variant_call.variantCallEffects.extend([variant_call_effect])
     biosample.variantCalls.extend([variant_call])
@@ -161,6 +172,8 @@ def process_line(state, source, line_raw):
     return state
 
 def convert_maf(state, mafpath, source):
+    print("converting maf: " + mafpath)
+
     inhandle = open(mafpath)
     for line in inhandle:
         if not line.startswith('Hugo_Symbol') and not line.startswith('#'):
@@ -170,9 +183,13 @@ def convert_maf(state, mafpath, source):
     return state
 
 def convert_tcga_patients(state, tcgapath, source):
+    print("converting tsv: " + tcgapath)
     with open(tcgapath) as patient_file:
         reader = csv.DictReader(patient_file, delimiter='\t')
         for row in reader:
+            keys = row.keys()
+            keys.sort()
+            print("%s" % keys)
             individual = find_individual(state, source, row['barcode'])
             for key, value in row.iteritems():
                 if value == '':
