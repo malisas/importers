@@ -10,6 +10,8 @@ from google.protobuf import json_format
 import json, sys, argparse, os
 import csv #for convert_tcga_patients
 import uuid
+import string
+import re
 
 def parse_args(args):
     # We don't need the first argument, which is the program name
@@ -35,6 +37,9 @@ def group_by(f, l):
         d[k].append(item)
 
     return d
+
+def partition(l, n):
+    return [l[i:i+n] for i in xrange(0, len(l), n)]
 
 def find_individual(state, source, individual_name):
     individual = state['individuals'].get(individual_name)
@@ -190,7 +195,7 @@ def convert_tcga_patients(state, tcgapath, source):
             keys = row.keys()
             keys.sort()
             print("%s" % keys)
-            individual = find_individual(state, source, row['barcode'])
+            individual = find_individual(state, source, row['bcr_patient_barcode'])
             for key, value in row.iteritems():
                 if value == '':
                     continue
@@ -199,21 +204,45 @@ def convert_tcga_patients(state, tcgapath, source):
 
     return state
 
-def write_individual_list(state, outpath, format):
-    individual_list = schema.IndividualList()
-    biosample_groups = group_by(lambda i: i.individualName, state['biosamples'].values())
+def splice_path(path, s):
+    path_split = path.split(".")
+    suffix = path_split[-1]
+    path_parts = path_split[:-1]
+    path_parts.extend([s, suffix])
+    return string.join(path_parts, ".")
 
+def message_to_json(message):
+    json = json_format.MessageToJson(message)
+    return re.sub(r" +", " ", json.replace("\n", ""))
+
+def write_individual_list(state, outpath, format):
+    individuals = []
+    biosample_groups = group_by(lambda i: i.individualName, state['biosamples'].values())
     for individual_name in state['individuals']:
         individual = state['individuals'][individual_name]
         biosamples = biosample_groups.get(individual_name)
         if biosamples is not None:
             individual.bioSamples.extend(biosamples)
-        individual_list.individuals.extend([individual])
+        individuals.append(individual)
 
     if format == 'json':
+        individual_list = map(message_to_json, individuals)
+        out = string.join(individual_list, "\n")
         outhandle = open(outpath, 'w')
-        outhandle.write(json_format.MessageToJson(individual_list))
+        outhandle.write(out)
+
+
+        # x = 1
+        # for part in partition(individuals, 100):
+        #     individual_list = schema.IndividualList()
+        #     individual_list.individuals.extend(part)
+        #     path = splice_path(outpath, str(x))
+        #     outhandle = open(path, 'w')
+        #     outhandle.write(json_format.MessageToJson(individual_list))
+        #     x += 1
     else:
+        individual_list = schema.IndividualList()
+        individual_list.individuals.extend(individuals)
         outhandle = open(outpath, 'wb')
         outhandle.write(individual_list.SerializeToString())
         
