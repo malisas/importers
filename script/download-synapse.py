@@ -8,7 +8,7 @@ download_path = '/Users/spanglry/Data/tcga'
 
 # login
 syn = synapseclient.Synapse()
-syn.login('spanglry', '11tree11')
+syn.login('USERNAME', 'PASSWORD')
 
 # get clinical and gene expression files from TCGA Live
 results = syn.chunkedQuery("select id, name, acronym from entity where entity.benefactorId=='syn2812961'")
