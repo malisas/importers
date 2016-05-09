@@ -230,16 +230,6 @@ def write_individual_list(state, outpath, format):
         out = string.join(individual_list, "\n")
         outhandle = open(outpath, 'w')
         outhandle.write(out)
-
-
-        # x = 1
-        # for part in partition(individuals, 100):
-        #     individual_list = schema.IndividualList()
-        #     individual_list.individuals.extend(part)
-        #     path = splice_path(outpath, str(x))
-        #     outhandle = open(path, 'w')
-        #     outhandle.write(json_format.MessageToJson(individual_list))
-        #     x += 1
     else:
         individual_list = schema.IndividualList()
         individual_list.individuals.extend(individuals)
