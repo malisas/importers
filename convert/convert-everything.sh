@@ -3,7 +3,7 @@
 CWD=$(pwd)
 CONVERTER_SCRIPT=${CWD}/convert-tcga.py
 
-OUTPATH="$HOME/Data/variant"
+OUTPATH="$HOME/Data/sample"
 
 for maf in $(ls ~/Data/tcga/*.maf); do
     base=$(basename $maf)
