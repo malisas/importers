@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 CWD=$(pwd)
-CONVERTER_SCRIPT=${CWD}/converter_tcga.py
+CONVERTER_SCRIPT=${CWD}/convert-tcga.py
 
 OUTPATH="$HOME/Data/variant"
 

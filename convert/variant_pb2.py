@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='variant.proto',
   package='bmeg.gaea.schema',
   syntax='proto3',
-  serialized_pb=_b('\n\rvariant.proto\x12\x10\x62meg.gaea.schema\"I\n\x08Position\x12\x11\n\treference\x18\x01 \x01(\t\x12\r\n\x05start\x18\x02 \x01(\x03\x12\x0b\n\x03\x65nd\x18\x03 \x01(\x03\x12\x0e\n\x06strand\x18\x04 \x01(\t\"\xbe\x01\n\x07\x46\x65\x61ture\x12,\n\x08position\x18\x01 \x01(\x0b\x32\x1a.bmeg.gaea.schema.Position\x12\x13\n\x0b\x66\x65\x61tureType\x18\x02 \x01(\t\x12=\n\nattributes\x18\x03 \x03(\x0b\x32).bmeg.gaea.schema.Feature.AttributesEntry\x1a\x31\n\x0f\x41ttributesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\xf7\x01\n\x11VariantCallEffect\x12\x0e\n\x06source\x18\x01 \x01(\t\x12\x0f\n\x07\x66\x65\x61ture\x18\x02 \x01(\t\x12\x1d\n\x15variantClassification\x18\x03 \x01(\t\x12\x0f\n\x07\x64omains\x18\x04 \x03(\t\x12\x0f\n\x07\x64\x62snpRS\x18\x05 \x01(\t\x12\x16\n\x0e\x64\x62snpValStatus\x18\x06 \x01(\t\x12;\n\x04info\x18\x07 \x03(\x0b\x32-.bmeg.gaea.schema.VariantCallEffect.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\xc3\x03\n\x0bVariantCall\x12\x0e\n\x06source\x18\x01 \x01(\t\x12,\n\x08position\x18\x02 \x01(\x0b\x32\x1a.bmeg.gaea.schema.Position\x12\x13\n\x0bvariantType\x18\x03 \x01(\t\x12\x17\n\x0freferenceAllele\x18\x04 \x01(\t\x12\x15\n\rnormalAllele1\x18\x05 \x01(\t\x12\x15\n\rnormalAllele2\x18\x06 \x01(\t\x12\x14\n\x0ctumorAllele1\x18\x07 \x01(\t\x12\x14\n\x0ctumorAllele2\x18\x08 \x01(\t\x12\x11\n\tsequencer\x18\t \x01(\t\x12\x17\n\x0ftumorSampleUUID\x18\n \x01(\t\x12\x1d\n\x15matchedNormSampleUUID\x18\x0b \x01(\t\x12?\n\x12variantCallEffects\x18\x0c \x03(\x0b\x32#.bmeg.gaea.schema.VariantCallEffect\x12\x35\n\x04info\x18\r \x03(\x0b\x32\'.bmeg.gaea.schema.VariantCall.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\x87\x01\n\tBioSample\x12\r\n\x05tumor\x18\x01 \x01(\t\x12\x0e\n\x06normal\x18\x02 \x01(\t\x12\x0e\n\x06source\x18\x03 \x01(\t\x12\x16\n\x0eindividualName\x18\x04 \x01(\t\x12\x33\n\x0cvariantCalls\x18\x05 \x03(\x0b\x32\x1d.bmeg.gaea.schema.VariantCall\"\xd6\x01\n\nIndividual\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12/\n\nbioSamples\x18\x03 \x03(\x0b\x32\x1b.bmeg.gaea.schema.BioSample\x12\x44\n\x0cobservations\x18\x04 \x03(\x0b\x32..bmeg.gaea.schema.Individual.ObservationsEntry\x1a\x33\n\x11ObservationsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\x10\n\x0eGeneExpression\"C\n\x0eIndividualList\x12\x31\n\x0bindividuals\x18\x01 \x03(\x0b\x32\x1c.bmeg.gaea.schema.Individualb\x06proto3')
+  serialized_pb=_b('\n\rvariant.proto\x12\x10\x62meg.gaea.schema\"I\n\x08Position\x12\x11\n\treference\x18\x01 \x01(\t\x12\r\n\x05start\x18\x02 \x01(\x03\x12\x0b\n\x03\x65nd\x18\x03 \x01(\x03\x12\x0e\n\x06strand\x18\x04 \x01(\t\"\xbe\x01\n\x07\x46\x65\x61ture\x12,\n\x08position\x18\x01 \x01(\x0b\x32\x1a.bmeg.gaea.schema.Position\x12\x13\n\x0b\x66\x65\x61tureType\x18\x02 \x01(\t\x12=\n\nattributes\x18\x03 \x03(\x0b\x32).bmeg.gaea.schema.Feature.AttributesEntry\x1a\x31\n\x0f\x41ttributesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\xf7\x01\n\x11VariantCallEffect\x12\x0e\n\x06source\x18\x01 \x01(\t\x12\x0f\n\x07\x66\x65\x61ture\x18\x02 \x01(\t\x12\x1d\n\x15variantClassification\x18\x03 \x01(\t\x12\x0f\n\x07\x64omains\x18\x04 \x03(\t\x12\x0f\n\x07\x64\x62snpRS\x18\x05 \x01(\t\x12\x16\n\x0e\x64\x62snpValStatus\x18\x06 \x01(\t\x12;\n\x04info\x18\x07 \x03(\x0b\x32-.bmeg.gaea.schema.VariantCallEffect.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\xc3\x03\n\x0bVariantCall\x12\x0e\n\x06source\x18\x01 \x01(\t\x12,\n\x08position\x18\x02 \x01(\x0b\x32\x1a.bmeg.gaea.schema.Position\x12\x13\n\x0bvariantType\x18\x03 \x01(\t\x12\x17\n\x0freferenceAllele\x18\x04 \x01(\t\x12\x15\n\rnormalAllele1\x18\x05 \x01(\t\x12\x15\n\rnormalAllele2\x18\x06 \x01(\t\x12\x14\n\x0ctumorAllele1\x18\x07 \x01(\t\x12\x14\n\x0ctumorAllele2\x18\x08 \x01(\t\x12\x11\n\tsequencer\x18\t \x01(\t\x12\x17\n\x0ftumorSampleUUID\x18\n \x01(\t\x12\x1d\n\x15matchedNormSampleUUID\x18\x0b \x01(\t\x12?\n\x12variantCallEffects\x18\x0c \x03(\x0b\x32#.bmeg.gaea.schema.VariantCallEffect\x12\x35\n\x04info\x18\r \x03(\x0b\x32\'.bmeg.gaea.schema.VariantCall.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\x87\x01\n\tBioSample\x12\r\n\x05tumor\x18\x01 \x01(\t\x12\x0e\n\x06normal\x18\x02 \x01(\t\x12\x0e\n\x06source\x18\x03 \x01(\t\x12\x16\n\x0eindividualName\x18\x04 \x01(\t\x12\x33\n\x0cvariantCalls\x18\x05 \x03(\x0b\x32\x1d.bmeg.gaea.schema.VariantCall\"\xd6\x01\n\nIndividual\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12/\n\nbioSamples\x18\x03 \x03(\x0b\x32\x1b.bmeg.gaea.schema.BioSample\x12\x44\n\x0cobservations\x18\x04 \x03(\x0b\x32..bmeg.gaea.schema.Individual.ObservationsEntry\x1a\x33\n\x11ObservationsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\xad\x01\n\x0eGeneExpression\x12\x0f\n\x07\x62\x61rcode\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x46\n\x0b\x65xpressions\x18\x03 \x03(\x0b\x32\x31.bmeg.gaea.schema.GeneExpression.ExpressionsEntry\x1a\x32\n\x10\x45xpressionsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"C\n\x0eIndividualList\x12\x31\n\x0bindividuals\x18\x01 \x03(\x0b\x32\x1c.bmeg.gaea.schema.Individualb\x06proto3')
 )
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
@@ -570,6 +570,43 @@ _INDIVIDUAL = _descriptor.Descriptor(
 )
 
 
+_GENEEXPRESSION_EXPRESSIONSENTRY = _descriptor.Descriptor(
+  name='ExpressionsEntry',
+  full_name='bmeg.gaea.schema.GeneExpression.ExpressionsEntry',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='key', full_name='bmeg.gaea.schema.GeneExpression.ExpressionsEntry.key', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='value', full_name='bmeg.gaea.schema.GeneExpression.ExpressionsEntry.value', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  options=_descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001')),
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1486,
+  serialized_end=1536,
+)
+
 _GENEEXPRESSION = _descriptor.Descriptor(
   name='GeneExpression',
   full_name='bmeg.gaea.schema.GeneExpression',
@@ -577,10 +614,31 @@ _GENEEXPRESSION = _descriptor.Descriptor(
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
+    _descriptor.FieldDescriptor(
+      name='barcode', full_name='bmeg.gaea.schema.GeneExpression.barcode', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='source', full_name='bmeg.gaea.schema.GeneExpression.source', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='expressions', full_name='bmeg.gaea.schema.GeneExpression.expressions', index=2,
+      number=3, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
   ],
   extensions=[
   ],
-  nested_types=[],
+  nested_types=[_GENEEXPRESSION_EXPRESSIONSENTRY, ],
   enum_types=[
   ],
   options=None,
@@ -589,8 +647,8 @@ _GENEEXPRESSION = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1362,
-  serialized_end=1378,
+  serialized_start=1363,
+  serialized_end=1536,
 )
 
 
@@ -620,8 +678,8 @@ _INDIVIDUALLIST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1380,
-  serialized_end=1447,
+  serialized_start=1538,
+  serialized_end=1605,
 )
 
 _FEATURE_ATTRIBUTESENTRY.containing_type = _FEATURE
@@ -637,6 +695,8 @@ _BIOSAMPLE.fields_by_name['variantCalls'].message_type = _VARIANTCALL
 _INDIVIDUAL_OBSERVATIONSENTRY.containing_type = _INDIVIDUAL
 _INDIVIDUAL.fields_by_name['bioSamples'].message_type = _BIOSAMPLE
 _INDIVIDUAL.fields_by_name['observations'].message_type = _INDIVIDUAL_OBSERVATIONSENTRY
+_GENEEXPRESSION_EXPRESSIONSENTRY.containing_type = _GENEEXPRESSION
+_GENEEXPRESSION.fields_by_name['expressions'].message_type = _GENEEXPRESSION_EXPRESSIONSENTRY
 _INDIVIDUALLIST.fields_by_name['individuals'].message_type = _INDIVIDUAL
 DESCRIPTOR.message_types_by_name['Position'] = _POSITION
 DESCRIPTOR.message_types_by_name['Feature'] = _FEATURE
@@ -722,11 +782,19 @@ _sym_db.RegisterMessage(Individual)
 _sym_db.RegisterMessage(Individual.ObservationsEntry)
 
 GeneExpression = _reflection.GeneratedProtocolMessageType('GeneExpression', (_message.Message,), dict(
+
+  ExpressionsEntry = _reflection.GeneratedProtocolMessageType('ExpressionsEntry', (_message.Message,), dict(
+    DESCRIPTOR = _GENEEXPRESSION_EXPRESSIONSENTRY,
+    __module__ = 'variant_pb2'
+    # @@protoc_insertion_point(class_scope:bmeg.gaea.schema.GeneExpression.ExpressionsEntry)
+    ))
+  ,
   DESCRIPTOR = _GENEEXPRESSION,
   __module__ = 'variant_pb2'
   # @@protoc_insertion_point(class_scope:bmeg.gaea.schema.GeneExpression)
   ))
 _sym_db.RegisterMessage(GeneExpression)
+_sym_db.RegisterMessage(GeneExpression.ExpressionsEntry)
 
 IndividualList = _reflection.GeneratedProtocolMessageType('IndividualList', (_message.Message,), dict(
   DESCRIPTOR = _INDIVIDUALLIST,
@@ -744,4 +812,6 @@ _VARIANTCALL_INFOENTRY.has_options = True
 _VARIANTCALL_INFOENTRY._options = _descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001'))
 _INDIVIDUAL_OBSERVATIONSENTRY.has_options = True
 _INDIVIDUAL_OBSERVATIONSENTRY._options = _descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001'))
+_GENEEXPRESSION_EXPRESSIONSENTRY.has_options = True
+_GENEEXPRESSION_EXPRESSIONSENTRY._options = _descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001'))
 # @@protoc_insertion_point(module_scope)

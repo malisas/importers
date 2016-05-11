@@ -109,8 +109,10 @@ def process_line(state, source, line_raw):
     biosample = state['biosamples'].get(biosample_name)
     if biosample is None:
         biosample = schema.BioSample()
-        biosample.name = biosample_name
+        # biosample.name = biosample_name
         biosample.source = source
+        biosample.tumor = line[tumor_sample_barcode]
+        biosample.normal = line[matched_norm_sample_barcode]
         biosample.individualName = individual.name
         state['biosamples'][biosample_name] = biosample
 
