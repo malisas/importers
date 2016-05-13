@@ -166,6 +166,10 @@ def find_variant_call_effect(state, source, effect_name, classification, line):
 
     return variant_call_effect
     
+def append_unique(l, i):
+    if not i in l:
+        l.append(i)
+
 def process_line(state, source, line_raw):
     # Information indices for VariantCall, Biosample, and Individual
     ncbi_build = 3
@@ -220,20 +224,15 @@ def process_line(state, source, line_raw):
     variant_call_effect = find_variant_call_effect(state, source, effect_name, line[variant_classification], line)
 
     # make edges
-    tumor_sample.sampleOfEdgesIndividual.extend([individual.name])
-    normal_sample.sampleOfEdgesIndividual.extend([individual.name])
+    append_unique(tumor_sample.sampleOfEdgesIndividual, individual.name)
+    append_unique(normal_sample.sampleOfEdgesIndividual, individual.name)
 
-    # individual.hasSampleEdges.extend([tumor_sample.name, normal_sample.name])
-    # feature.atPositionEdges.extend([position.name])
-    # feature.hasEffectEdges.extend([variant_call_effect.name])
-    # variant_call.hasEffectEdges.extend([variant_call_effect.name])
+    append_unique(variant_call.atPositionEdgesPosition, position.name)
+    append_unique(variant_call.tumorSampleEdgesBiosample, tumor_sample.name)
+    append_unique(variant_call.normalSampleEdgesBiosample, normal_sample.name)
 
-    variant_call.atPositionEdgesPosition.extend([position.name])
-    variant_call.tumorSampleEdgesBiosample.extend([tumor_sample.name])
-    variant_call.normalSampleEdgesBiosample.extend([normal_sample.name])
-
-    variant_call_effect.inFeatureEdgesFeature.extend([feature.name])
-    variant_call_effect.effectOfEdgesVariantCall.extend([variant_call.name])
+    append_unique(variant_call_effect.inFeatureEdgesFeature, feature.name)
+    append_unique(variant_call_effect.effectOfEdgesVariantCall, variant_call.name)
 
     return state
 
