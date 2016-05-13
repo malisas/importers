@@ -220,15 +220,20 @@ def process_line(state, source, line_raw):
     variant_call_effect = find_variant_call_effect(state, source, effect_name, line[variant_classification], line)
 
     # make edges
-    individual.hasSampleEdges.extend([tumor_sample.name, normal_sample.name])
+    tumor_sample.sampleOfEdgesIndividual.extend([individual.name])
+    normal_sample.sampleOfEdgesIndividual.extend([individual.name])
 
-    feature.atPositionEdges.extend([position.name])
-    feature.hasEffectEdges.extend([variant_call_effect.name])
+    # individual.hasSampleEdges.extend([tumor_sample.name, normal_sample.name])
+    # feature.atPositionEdges.extend([position.name])
+    # feature.hasEffectEdges.extend([variant_call_effect.name])
+    # variant_call.hasEffectEdges.extend([variant_call_effect.name])
 
-    variant_call.atPositionEdges.extend([position.name])
-    variant_call.tumorSampleEdges.extend([tumor_sample.name])
-    variant_call.normalSampleEdges.extend([normal_sample.name])
-    variant_call.hasEffectEdges.extend([variant_call_effect.name])
+    variant_call.atPositionEdgesPosition.extend([position.name])
+    variant_call.tumorSampleEdgesBiosample.extend([tumor_sample.name])
+    variant_call.normalSampleEdgesBiosample.extend([normal_sample.name])
+
+    variant_call_effect.inFeatureEdgesFeature.extend([feature.name])
+    variant_call_effect.effectOfEdgesVariantCall.extend([variant_call.name])
 
     return state
 
