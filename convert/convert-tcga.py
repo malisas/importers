@@ -24,6 +24,7 @@ def parse_args(args):
     # Now add all the options to it
     parser.add_argument('--maf', type=str, help='Path to the maf you want to import')
     parser.add_argument('--tsv', type=str, help='Path to the tsv you want to import')
+    parser.add_argument('--exp', type=str, help='Path to the exp you want to import')
     parser.add_argument('--out', type=str, help='Path to output json file')
     parser.add_argument('--format', type=str, default='json', help='Format of output: json or pbf (binary)')
     return parser.parse_args(args)
@@ -211,8 +212,8 @@ def process_line(state, source, line_raw):
     individual_name = line[tumor_sample_barcode][0:12]
     individual = find_individual(state, source, individual_name)
 
-    tumor_sample = find_biosample(state, source, line[tumor_sample_barcode], "tumor")
-    normal_sample = find_biosample(state, source, line[normal_sample_barcode], "normal")
+    tumor_sample = find_biosample(state, source, line[tumor_sample_barcode], 'tumor')
+    normal_sample = find_biosample(state, source, line[normal_sample_barcode], 'normal')
 
     position = find_position(state, line[chromosome], line[start], line[end], line[strand])
 
@@ -237,7 +238,7 @@ def process_line(state, source, line_raw):
     return state
 
 def convert_maf(state, mafpath, source):
-    print("converting maf: " + mafpath)
+    print('converting maf: ' + mafpath)
 
     inhandle = open(mafpath)
     for line in inhandle:
@@ -248,7 +249,7 @@ def convert_maf(state, mafpath, source):
     return state
 
 def convert_tcga_patients(state, tcgapath, source):
-    print("converting tsv: " + tcgapath)
+    print('converting tsv: ' + tcgapath)
     with open(tcgapath) as patient_file:
         reader = csv.DictReader(patient_file, delimiter='\t')
         for row in reader:
@@ -261,19 +262,49 @@ def convert_tcga_patients(state, tcgapath, source):
 
     return state
 
+def make_sample(barcode):
+    sample = schema.GeneExpression()
+    sample.barcode = barcode
+    sample.source = 'TCGA'
+    sample.name = barcode
+    sample.expressionForEdgesBiosample.append(barcode[:16])
+
+    return sample
+
 def convert_expression(state, exppath, source):
-    5
+    print('converting expression: ' + exppath)
+    samples = None
+    with open(exppath) as expfile:
+        for line in expfile:
+            parts = line.split('\t')
+            if samples is None:
+                samples = map(make_sample, parts[1:])
+            else:
+                gene_parts = parts[0].split('|')
+                gene_name = gene_parts[0].upper()
+                gene_number = gene_parts[1]
+                for index, part in enumerate(parts[1:]):
+                    try:
+                        value = float(part)
+                    except:
+                        value = 0
+                    samples[index].expressions[gene_name] = value
+
+    for sample in samples:
+        state['GeneExpression'][sample.name] = sample
+
+    return state
 
 def splice_path(path, s):
-    path_split = path.split(".")
+    path_split = path.split('.')
     suffix = path_split[-1]
     path_parts = path_split[:-1]
     path_parts.extend([s, suffix])
-    return string.join(path_parts, ".")
+    return string.join(path_parts, '.')
 
 def message_to_json(message):
     json = json_format.MessageToJson(message)
-    return re.sub(r" +", " ", json.replace("\n", ""))
+    return re.sub(r' +', ' ', json.replace('\n', ''))
 
 def write_messages(state, outpath, format):
     if format == 'json':
@@ -281,7 +312,7 @@ def write_messages(state, outpath, format):
             outmessage = splice_path(outpath, message)
             messages = map(message_to_json, state[message].values())
             if len(messages) > 0:
-                out = string.join(messages, "\n")
+                out = string.join(messages, '\n')
                 outhandle = open(outmessage, 'w')
                 outhandle.write(out)
                 outhandle.close()
@@ -290,28 +321,31 @@ def write_messages(state, outpath, format):
             outmessage = splice_path(outpath, message)
             messages = map(lambda m: m.SerializeToString(), state[message].values())
             if len(messages) > 0:
-                out = string.join(messages, "\n")
+                out = string.join(messages, '\n')
                 outhandle = open(outmessage, 'wb')
                 outhandle.write(out)
                 outhandle.close()
 
-def convert_maf_and_tsv_to_profobuf(mafpath, tsvpath, outpath, format):
+def convert_maf_and_tsv_to_profobuf(mafpath, tsvpath, exppath, outpath, format):
     state = {'Individual': {},
              'Biosample': {},
              'Position': {},
              'Feature': {},
              'Domain': {},
              'VariantCall': {},
-             'VariantCallEffect': {}}
+             'VariantCallEffect': {},
+             'GeneExpression': {}}
     source = 'TCGA'
 
     if mafpath:
         convert_maf(state, mafpath, source)
     if tsvpath:
         convert_tcga_patients(state, tsvpath, source)
+    if exppath:
+        convert_expression(state, exppath, source)
 
     write_messages(state, outpath, format)
 
 if __name__ == '__main__':
     options = parse_args(sys.argv)
-    convert_maf_and_tsv_to_profobuf(options.maf, options.tsv, options.out, options.format)
+    convert_maf_and_tsv_to_profobuf(options.maf, options.tsv, options.exp, options.out, options.format)

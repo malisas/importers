@@ -16,3 +16,9 @@ for tsv in $(ls ~/Data/tcga/*.patient.tsv); do
     echo "converting tsv $tsv"
     python $CONVERTER_SCRIPT --tsv $tsv --out $OUTPATH/$base.json
 done
+
+for exp in $(ls ~/Data/tcga/*RNASeq.geneExp*); do
+    base=$(basename $exp)
+    echo "converting exp $exp"
+    python $CONVERTER_SCRIPT --exp $exp --out $OUTPATH/$base.json
+done
