@@ -4,17 +4,23 @@ import os
 import httplib
 import argparse
 
+already_imported = []
+
 def import_json(data_type, path):
-    print("importing " + data_type + " - " + path)
+    if data_type == 'GeneExpression' and path not in already_imported:
+        print("importing " + data_type + " - " + path)
+        headers = {'Content-Type': 'application/octet-stream'}
 
-    headers = {'Content-Type': 'application/octet-stream'}
-    conn = httplib.HTTPConnection('localhost:11223')
-    conn.request('POST', '/message/' + data_type, open(path, 'rb'), headers)
-    response = conn.getresponse()
-    success = response.read()
-    conn.close()
+        try:
+            conn = httplib.HTTPConnection('localhost:11223')
+            conn.request('POST', '/message/' + data_type, open(path, 'rb'), headers)
+            response = conn.getresponse()
+            success = response.read()
+        except:
+            success = "failed!"
 
-    print success
+        conn.close()
+        print success
 
 def find_data_type(path):
     parts = path.split('.')
