@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Sample converter script. Please set-up with your local paths and options.
+# Sample ccle converter script. Please set-up with your local paths and options.
 
 CWD=$(pwd)
 CONVERTER_SCRIPT=${CWD}/convert-ccle.py
