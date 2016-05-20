@@ -211,7 +211,7 @@ def process_maf_line(state, source, line_raw):
 
     variant_call = find_variant_call(state, source, position.name, line[reference_allele], line[normal_allele1], line[normal_allele2], line[tumor_allele1], line[tumor_allele2], line[variant_type], line[ncbi_build], line[mutation_status], line[sequencing_phase], line[sequence_source], line[bam_file], line[sequencer], line[genome_change], tumor_sample.barcode)
 
-    effect_name = variant_call.name + "-variant-call-effect" #For now, each variant call has one variant call effect. In the future we might want to make the effect name more unique.
+    effect_name = "variantcalleffect:" + variant_call.name #For now, each variant call has one variant call effect. In the future we might want to make the effect name more unique.
     variant_call_effect = find_variant_call_effect(state, source, effect_name, line[variant_classification], line)
 
     # make edges
@@ -260,7 +260,7 @@ def process_csv_line(state, source, lineAsList):
     # Create Biosample
     tumor_sample = find_biosample(state, source, lineAsList[CCLE_Cell_Line_Name], 'tumor')
     # Create Genotype based on the Biosample
-    genotype_name = tumor_sample.name + "genotype"
+    genotype_name = "genotype:" + tumor_sample.name
     genotype = state['Genotype'].get(genotype_name)
     if genotype is None:
         genotype = schema.Genotype()
@@ -268,7 +268,7 @@ def process_csv_line(state, source, lineAsList):
         state['Genotype'][genotype_name] = genotype
 
     # Create OntologyTerm
-    ontology_term_name = "http://amigo.geneontology.org/amigo/term/GO:0042493"
+    ontology_term_name = "ontologyterm:" + "http://amigo.geneontology.org/amigo/term/GO:0042493"
     ontology_term = state['OntologyTerm'].get(ontology_term_name)
     if ontology_term is None:
         ontology_term = schema.OntologyTerm()
@@ -276,7 +276,7 @@ def process_csv_line(state, source, lineAsList):
         ontology_term.term = "response to drug"
         state['OntologyTerm'][ontology_term_name] = ontology_term
     # Create Phenotype based on the OntologyTerm
-    phenotype_name = ontology_term.name + "phenotype" #may want to refine this later
+    phenotype_name = "phenotype:" + ontology_term.name #may want to refine this later
     phenotype = state['Phenotype'].get(phenotype_name)
     if phenotype is None:
         phenotype = schema.Phenotype()
@@ -284,14 +284,14 @@ def process_csv_line(state, source, lineAsList):
         state['Phenotype'][phenotype_name] = phenotype
 
     # Create Drug
-    drug_name = lineAsList[Compound]
+    drug_name = "drug:" + lineAsList[Compound]
     drug = state['Drug'].get(drug_name)
     if drug is None:
         drug = schema.Drug()
         drug.name = drug_name
         state['Drug'][drug_name] = drug
     # Create PhenotypeAssociation (which contains Context) based on the Drug
-    phenotype_association_name = genotype.name + drug.name + phenotype.name
+    phenotype_association_name = "phenotypeassociation:" + genotype.name + drug.name + phenotype.name
     phenotype_association = state['PhenotypeAssociation'].get(phenotype_association_name)
     if phenotype_association is None:
         phenotype_association = schema.PhenotypeAssociation()
@@ -307,12 +307,14 @@ def process_csv_line(state, source, lineAsList):
         phenotype_association.theContext.info['IC50_uM'] = lineAsList[IC50_uM]
         phenotype_association.theContext.info['Amax'] = lineAsList[Amax]
         phenotype_association.theContext.info['ActArea'] = lineAsList[ActArea]
+        state['PhenotypeAssociation'][phenotype_association_name] = phenotype_association
 
     # make edges
     append_unique(genotype.isBiosampleEdgesBiosample, tumor_sample.name)
     append_unique(phenotype.isTypeEdgesOntologyTerm, ontology_term.name)
     append_unique(phenotype_association.hasGenotypeEdgesGenotype, genotype.name)
     append_unique(phenotype_association.hasPhenotypeEdgesPhenotype, phenotype.name)
+    append_unique(phenotype_association.theContext.involvesDrugEdgesDrug, drug.name)
 
     return state
 
