@@ -7,7 +7,7 @@ import argparse
 already_imported = []
 
 def import_json(data_type, path):
-    if data_type == 'GeneExpression' and path not in already_imported:
+    if not data_type == 'GeneExpression' and path not in already_imported:
         print("importing " + data_type + " - " + path)
         headers = {'Content-Type': 'application/octet-stream'}
 
