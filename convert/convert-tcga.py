@@ -42,7 +42,8 @@ def group_by(f, l):
 def partition(l, n):
     return [l[i:i+n] for i in xrange(0, len(l), n)]
 
-def find_individual(state, source, individual_name):
+def find_individual(state, source, barcode):
+    individual_name = 'individual:' + barcode
     individual = state['Individual'].get(individual_name)
     if individual is None:
         individual = schema.Individual()
@@ -53,7 +54,7 @@ def find_individual(state, source, individual_name):
     return individual
 
 def find_biosample(state, source, barcode, sample_type):
-    sample_name = barcode[:16]
+    sample_name = 'biosample:' + barcode[:16]
     biosample = state['Biosample'].get(sample_name)
     if biosample is None:
         biosample = schema.Biosample()
@@ -66,7 +67,7 @@ def find_biosample(state, source, barcode, sample_type):
     return biosample
 
 def find_position(state, chromosome, start, end, strand):
-    position_name = chromosome + start + end + strand
+    position_name = 'position:' + chromosome + start + end + strand
     position = state['Position'].get(position_name)
     if position is None:
         position = schema.Position()
@@ -80,11 +81,12 @@ def find_position(state, chromosome, start, end, strand):
     return position
 
 def find_domain(state, name):
-    domain = state['Domain'].get(name)
+    domain_name = name
+    domain = state['Domain'].get(domain_name)
     if domain is None:
         domain = schema.Domain()
-        domain.name = name
-        state['Domain'][name] = domain
+        domain.name = domain_name
+        state['Domain'][domain_name] = domain
 
     return domain
 
@@ -97,8 +99,8 @@ def find_feature(state, name):
 
     return feature
 
-def find_variant_call(state, source, position_name, reference_allele, normal_allele1, normal_allele2, tumor_allele1, tumor_allele2, variant_type, ncbi_build, mutation_status, sequencing_phase, sequence_source, bam_file):
-    variant_name = source + position_name + variant_type + mutation_status
+def find_variant_call(state, source, tumor_name, position_name, reference_allele, normal_allele1, normal_allele2, tumor_allele1, tumor_allele2, variant_type, ncbi_build, mutation_status, sequencing_phase, sequence_source, bam_file):
+    variant_name = 'variantCall:' + source + tumor_name + position_name + variant_type + mutation_status
     variant_call = state['VariantCall'].get(variant_name)
     if variant_call is None:
         variant_call = schema.VariantCall()
@@ -219,9 +221,9 @@ def process_line(state, source, line_raw):
 
     feature = find_feature(state, line[hugo_symbol])
 
-    variant_call = find_variant_call(state, source, position.name, line[reference_allele], line[normal_allele1], line[normal_allele2], line[tumor_allele1], line[tumor_allele2], line[variant_type], line[ncbi_build], line[mutation_status], line[sequencing_phase], line[sequence_source], line[bam_file])
+    variant_call = find_variant_call(state, source, tumor_sample.name, position.name, line[reference_allele], line[normal_allele1], line[normal_allele2], line[tumor_allele1], line[tumor_allele2], line[variant_type], line[ncbi_build], line[mutation_status], line[sequencing_phase], line[sequence_source], line[bam_file])
 
-    effect_name = source + individual.name + line[variant_classification] + position.name
+    effect_name = 'variantCallEffect:' + source + tumor_sample.name + line[variant_classification] + position.name
     variant_call_effect = find_variant_call_effect(state, source, effect_name, line[variant_classification], line)
 
     # make edges
@@ -266,8 +268,8 @@ def make_sample(barcode):
     sample = schema.GeneExpression()
     sample.barcode = barcode
     sample.source = 'TCGA'
-    sample.name = barcode
-    sample.expressionForEdgesBiosample.append(barcode[:16])
+    sample.name = 'geneExpression:' + barcode
+    sample.expressionForEdgesBiosample.append('biosample:' + barcode[:16])
 
     return sample
 
