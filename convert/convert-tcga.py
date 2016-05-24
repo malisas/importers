@@ -8,20 +8,16 @@ JSON-encoded protobuf data based on the simple_schema.proto schema.
 import sample_pb2 as schema
 from google.protobuf import json_format
 import json, sys, argparse, os
-import csv #for convert_tcga_patients
+import csv
 import uuid
 import string
 import re
 
 def parse_args(args):
-    # We don't need the first argument, which is the program name
     args = args[1:]
-
-    # Construct the parser
     parser = argparse.ArgumentParser(description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter)
 
-    # Now add all the options to it
     parser.add_argument('--maf', type=str, help='Path to the maf you want to import')
     parser.add_argument('--tsv', type=str, help='Path to the tsv you want to import')
     parser.add_argument('--exp', type=str, help='Path to the exp you want to import')
