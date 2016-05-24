@@ -1,3 +1,5 @@
+Note: This README is outdated.
+
 ### Contents of this directory:
 
 **converter_tcga.py** is the main converter. It converts TCGA maf and patient summary files into JSON.  

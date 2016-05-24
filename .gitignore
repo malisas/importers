@@ -1,1 +1,8 @@
 *.pyc
+convert/tmp_tests
+convert/tmp_converted
+convert/raw-data/CCLE_hybrid_capture1650_hg19_NoCommonSNPs_NoNeutralVariants_CDS_2012.05.07.maf
+convert/raw-data/CCLE_NP24.2009_Drug_data_2015.02.24.csv
+convert/raw-data/CTRPv2.0_2015_ctd2_ExpandedDataset
+convert/raw-data/Rodrigo
+convert/raw-data/misc
