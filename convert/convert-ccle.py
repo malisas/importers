@@ -76,8 +76,8 @@ def find_feature(state, name, entrez_gene_id):
 
     return feature
 
-def find_variant_call(state, source, position_name, reference_allele, normal_allele1, normal_allele2, tumor_allele1, tumor_allele2, variant_type, ncbi_build, mutation_status, sequencing_phase, sequence_source, bam_file, sequencer, genome_change, tumor_sample_barcode):
-    variant_name = source + position_name + variant_type + mutation_status + tumor_sample_barcode
+def find_variant_call(state, source, position_name, reference_allele, normal_allele1, normal_allele2, tumor_allele1, tumor_allele2, variant_type, ncbi_build, mutation_status, sequencing_phase, sequence_source, bam_file, sequencer, genome_change, tumor_sample_name):
+    variant_name = source + position_name + variant_type + mutation_status + tumor_sample_name
     variant_call = state['VariantCall'].get(variant_name)
     if variant_call is None:
         variant_call = schema.VariantCall()
@@ -209,7 +209,7 @@ def process_maf_line(state, source, line_raw):
 
     feature = find_feature(state, line[hugo_symbol], line[entrez_gene_id])
 
-    variant_call = find_variant_call(state, source, position.name, line[reference_allele], line[normal_allele1], line[normal_allele2], line[tumor_allele1], line[tumor_allele2], line[variant_type], line[ncbi_build], line[mutation_status], line[sequencing_phase], line[sequence_source], line[bam_file], line[sequencer], line[genome_change], tumor_sample.barcode)
+    variant_call = find_variant_call(state, source, position.name, line[reference_allele], line[normal_allele1], line[normal_allele2], line[tumor_allele1], line[tumor_allele2], line[variant_type], line[ncbi_build], line[mutation_status], line[sequencing_phase], line[sequence_source], line[bam_file], line[sequencer], line[genome_change], tumor_sample.name)
 
     effect_name = "variantcalleffect:" + variant_call.name #For now, each variant call has one variant call effect. In the future we might want to make the effect name more unique.
     variant_call_effect = find_variant_call_effect(state, source, effect_name, line[variant_classification], line)
