@@ -42,7 +42,7 @@ def parse_args(args):
 ########################################
 
 def find_biosample(state, source, barcode, sample_type):
-    sample_name = source + '-' + barcode
+    sample_name = 'biosample:' + source + '-' + barcode
     biosample = state['Biosample'].get(sample_name)
     if biosample is None:
         biosample = schema.Biosample()
@@ -67,7 +67,7 @@ def process_row(state, source, row): #row is a namedtuple
     tumor_sample = find_biosample(state, biosample_source, ccl_name_CCLE, sample_type)
     # and the corressponding Genotype message
     # Create Genotype based on the Biosample
-    genotype_name = tumor_sample.name + "genotype"
+    genotype_name = "genotype:" + tumor_sample.name
     genotype = state['Genotype'].get(genotype_name)
     if genotype is None:
         genotype = schema.Genotype()
@@ -75,7 +75,7 @@ def process_row(state, source, row): #row is a namedtuple
         state['Genotype'][genotype_name] = genotype
     
     # Create OntologyTerm
-    ontology_term_name = "http://amigo.geneontology.org/amigo/term/GO:0042493"
+    ontology_term_name = "ontologyTerm:" + "http://amigo.geneontology.org/amigo/term/GO:0042493"
     ontology_term = state['OntologyTerm'].get(ontology_term_name)
     if ontology_term is None:
         ontology_term = schema.OntologyTerm()
@@ -83,7 +83,7 @@ def process_row(state, source, row): #row is a namedtuple
         ontology_term.term = "response to drug"
         state['OntologyTerm'][ontology_term_name] = ontology_term
     # Create Phenotype based on the OntologyTerm
-    phenotype_name = ontology_term.name + "phenotype" #may want to refine this later
+    phenotype_name = "phenotype:" + ontology_term.name #may want to refine this later
     phenotype = state['Phenotype'].get(phenotype_name)
     if phenotype is None:
         phenotype = schema.Phenotype()
@@ -101,7 +101,7 @@ def process_row(state, source, row): #row is a namedtuple
         state['Drug'][drug_name] = drug
 
     # Create PhenotypeAssociation (which contains Context) based on the Drug
-    phenotype_association_name = genotype.name + drug.name + phenotype.name
+    phenotype_association_name = "phenotypeAssociation:" + genotype.name + drug.name + phenotype.name
     phenotype_association = state['PhenotypeAssociation'].get(phenotype_association_name)
     if phenotype_association is None:
         phenotype_association = schema.PhenotypeAssociation()

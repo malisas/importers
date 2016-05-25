@@ -40,7 +40,7 @@ def parse_args(args):
 ########################################
 
 def find_biosample(state, source, barcode, sample_type):
-    sample_name = source + '-' + barcode
+    sample_name = 'biosample:' + source + '-' + barcode
     biosample = state['Biosample'].get(sample_name)
     if biosample is None:
         biosample = schema.Biosample()
@@ -53,7 +53,7 @@ def find_biosample(state, source, barcode, sample_type):
     return biosample
 
 def find_position(state, chromosome, start, end, strand):
-    position_name = chromosome + start + end + strand
+    position_name = 'position:' + chromosome + start + end + strand
     position = state['Position'].get(position_name)
     if position is None:
         position = schema.Position()
@@ -66,18 +66,19 @@ def find_position(state, chromosome, start, end, strand):
 
     return position
 
-def find_feature(state, name, entrez_gene_id):
-    feature = state['Feature'].get(name)
+def find_feature(state, hugo_code, entrez_gene_id):
+    feature_name = hugo_code
+    feature = state['Feature'].get(feature_name)
     if feature is None:
         feature = schema.Feature()
-        feature.name = name
+        feature.name = feature_name
         feature.attributes['entrezGeneId'] = entrez_gene_id
-        state['Feature'][name] = feature
+        state['Feature'][feature_name] = feature
 
     return feature
 
 def find_variant_call(state, source, position_name, reference_allele, normal_allele1, normal_allele2, tumor_allele1, tumor_allele2, variant_type, ncbi_build, mutation_status, sequencing_phase, sequence_source, bam_file, sequencer, genome_change, tumor_sample_name):
-    variant_name = source + position_name + variant_type + mutation_status + tumor_sample_name
+    variant_name = 'variantCall:' + source + tumor_sample_name + position_name + variant_type + mutation_status 
     variant_call = state['VariantCall'].get(variant_name)
     if variant_call is None:
         variant_call = schema.VariantCall()
@@ -200,7 +201,7 @@ def process_maf_line(state, source, line_raw):
     # --------------------------------------------
     line = line_raw.rstrip().split('\t')
 
-    # Example tumor name: 'CCLE-CCK81_LARGE_INTESTINE' 
+    # Example tumor_sample_barcode: 'CCLE-CCK81_LARGE_INTESTINE' 
 
     # create nodes
     tumor_sample = find_biosample(state, source, line[tumor_sample_barcode], 'tumor')
@@ -211,7 +212,7 @@ def process_maf_line(state, source, line_raw):
 
     variant_call = find_variant_call(state, source, position.name, line[reference_allele], line[normal_allele1], line[normal_allele2], line[tumor_allele1], line[tumor_allele2], line[variant_type], line[ncbi_build], line[mutation_status], line[sequencing_phase], line[sequence_source], line[bam_file], line[sequencer], line[genome_change], tumor_sample.name)
 
-    effect_name = "variantcalleffect:" + variant_call.name #For now, each variant call has one variant call effect. In the future we might want to make the effect name more unique.
+    effect_name = "variantCallEffect:" + variant_call.name #For now, each variant call has one variant call effect. In the future we might want to make the effect name more unique.
     variant_call_effect = find_variant_call_effect(state, source, effect_name, line[variant_classification], line)
 
     # make edges
@@ -268,7 +269,7 @@ def process_csv_line(state, source, lineAsList):
         state['Genotype'][genotype_name] = genotype
 
     # Create OntologyTerm
-    ontology_term_name = "ontologyterm:" + "http://amigo.geneontology.org/amigo/term/GO:0042493"
+    ontology_term_name = "ontologyTerm:" + "http://amigo.geneontology.org/amigo/term/GO:0042493"
     ontology_term = state['OntologyTerm'].get(ontology_term_name)
     if ontology_term is None:
         ontology_term = schema.OntologyTerm()
@@ -284,14 +285,14 @@ def process_csv_line(state, source, lineAsList):
         state['Phenotype'][phenotype_name] = phenotype
 
     # Create Drug
-    drug_name = "drug:" + lineAsList[Compound]
+    drug_name = lineAsList[Compound]
     drug = state['Drug'].get(drug_name)
     if drug is None:
         drug = schema.Drug()
         drug.name = drug_name
         state['Drug'][drug_name] = drug
     # Create PhenotypeAssociation (which contains Context) based on the Drug
-    phenotype_association_name = "phenotypeassociation:" + genotype.name + drug.name + phenotype.name
+    phenotype_association_name = "phenotypeAssociation:" + genotype.name + drug.name + phenotype.name
     phenotype_association = state['PhenotypeAssociation'].get(phenotype_association_name)
     if phenotype_association is None:
         phenotype_association = schema.PhenotypeAssociation()
