@@ -13,7 +13,7 @@ def import_json(data_type, path):
 
         try:
             conn = httplib.HTTPConnection('localhost:11223')
-            conn.request('POST', '/message/' + data_type, open(path, 'rb'), headers)
+            conn.request('POST', '/gaea/message/' + data_type, open(path, 'rb'), headers)
             response = conn.getresponse()
             success = response.read()
         except:
