@@ -67,7 +67,7 @@ def find_position(state, chromosome, start, end, strand):
     return position
 
 def find_feature(state, hugo_code, entrez_gene_id):
-    feature_name = hugo_code
+    feature_name = "feature:" + hugo_code
     feature = state['Feature'].get(feature_name)
     if feature is None:
         feature = schema.Feature()
@@ -216,11 +216,11 @@ def process_maf_line(state, source, line_raw):
     variant_call_effect = find_variant_call_effect(state, source, effect_name, line[variant_classification], line)
 
     # make edges
-    append_unique(variant_call.atPositionEdgesPosition, position.name)
-    append_unique(variant_call.tumorSampleEdgesBiosample, tumor_sample.name)
+    append_unique(variant_call.atPositionEdges, position.name)
+    append_unique(variant_call.tumorSampleEdges, tumor_sample.name)
 
-    append_unique(variant_call_effect.inFeatureEdgesFeature, feature.name)
-    append_unique(variant_call_effect.effectOfEdgesVariantCall, variant_call.name)
+    append_unique(variant_call_effect.inFeatureEdges, feature.name)
+    append_unique(variant_call_effect.effectOfEdges, variant_call.name)
 
     return state
 
@@ -260,13 +260,6 @@ def process_csv_line(state, source, lineAsList):
 
     # Create Biosample
     tumor_sample = find_biosample(state, source, lineAsList[CCLE_Cell_Line_Name], 'tumor')
-    # Create Genotype based on the Biosample
-    genotype_name = "genotype:" + tumor_sample.name
-    genotype = state['Genotype'].get(genotype_name)
-    if genotype is None:
-        genotype = schema.Genotype()
-        genotype.name = genotype_name
-        state['Genotype'][genotype_name] = genotype
 
     # Create OntologyTerm
     ontology_term_name = "ontologyTerm:" + "http://amigo.geneontology.org/amigo/term/GO:0042493"
@@ -285,37 +278,36 @@ def process_csv_line(state, source, lineAsList):
         state['Phenotype'][phenotype_name] = phenotype
 
     # Create Drug
-    drug_name = lineAsList[Compound]
+    drug_name = "drug:" + lineAsList[Compound]
     drug = state['Drug'].get(drug_name)
     if drug is None:
         drug = schema.Drug()
         drug.name = drug_name
+        drug.synonyms.append(drug_name)
         state['Drug'][drug_name] = drug
     # Create PhenotypeAssociation (which contains Context) based on the Drug
-    phenotype_association_name = "phenotypeAssociation:" + genotype.name + drug.name + phenotype.name
+    phenotype_association_name = "phenotypeAssociation:" + tumor_sample.name + drug.name + phenotype.name
     phenotype_association = state['PhenotypeAssociation'].get(phenotype_association_name)
     if phenotype_association is None:
         phenotype_association = schema.PhenotypeAssociation()
         phenotype_association.name = phenotype_association_name
-        #phenotype_association.theContext.name = "" #context is contained by the PhenotypeAssociation, not sure if it needs a unique name
-        phenotype_association.theContext.info['Target'] = lineAsList[Target]
-        phenotype_association.theContext.info['Doses_uM'] = lineAsList[Doses_uM]
-        phenotype_association.theContext.info['Activity_Data_median'] = lineAsList[Activity_Data_median]
-        phenotype_association.theContext.info['Activity_SD'] = lineAsList[Activity_SD]
-        phenotype_association.theContext.info['Num_Data'] = lineAsList[Num_Data]
-        phenotype_association.theContext.info['FitType'] = lineAsList[FitType]
-        phenotype_association.theContext.info['EC50_uM'] = lineAsList[EC50_uM]
-        phenotype_association.theContext.info['IC50_uM'] = lineAsList[IC50_uM]
-        phenotype_association.theContext.info['Amax'] = lineAsList[Amax]
-        phenotype_association.theContext.info['ActArea'] = lineAsList[ActArea]
+        phenotype_association.info['Target'] = lineAsList[Target]
+        phenotype_association.info['Doses_uM'] = lineAsList[Doses_uM]
+        phenotype_association.info['Activity_Data_median'] = lineAsList[Activity_Data_median]
+        phenotype_association.info['Activity_SD'] = lineAsList[Activity_SD]
+        phenotype_association.info['Num_Data'] = lineAsList[Num_Data]
+        phenotype_association.info['FitType'] = lineAsList[FitType]
+        phenotype_association.info['EC50_uM'] = lineAsList[EC50_uM]
+        phenotype_association.info['IC50_uM'] = lineAsList[IC50_uM]
+        phenotype_association.info['Amax'] = lineAsList[Amax]
+        phenotype_association.info['ActArea'] = lineAsList[ActArea]
         state['PhenotypeAssociation'][phenotype_association_name] = phenotype_association
 
     # make edges
-    append_unique(genotype.isBiosampleEdgesBiosample, tumor_sample.name)
-    append_unique(phenotype.isTypeEdgesOntologyTerm, ontology_term.name)
-    append_unique(phenotype_association.hasGenotypeEdgesGenotype, genotype.name)
-    append_unique(phenotype_association.hasPhenotypeEdgesPhenotype, phenotype.name)
-    append_unique(phenotype_association.theContext.involvesDrugEdgesDrug, drug.name)
+    append_unique(phenotype.isTypeEdges, ontology_term.name)
+    append_unique(phenotype_association.hasGenotypeEdges, tumor_sample.name)
+    append_unique(phenotype_association.hasPhenotypeEdges, phenotype.name)
+    append_unique(phenotype_association.hasContextEdges, drug.name)
 
     return state
 
@@ -369,7 +361,6 @@ def convert_maf_and_csv_to_profobuf(mafpath, csvpath, outpath, format):
              'Feature': {},
              'VariantCall': {},
              'VariantCallEffect': {},
-             'Genotype': {},
              'Drug': {},
              'OntologyTerm': {},
              'Phenotype': {},

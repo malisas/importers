@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='sample.proto',
   package='bmeg.gaea.schema',
   syntax='proto3',
-  serialized_pb=_b('\n\x0csample.proto\x12\x10\x62meg.gaea.schema\"X\n\x08Position\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x12\n\nchromosome\x18\x02 \x01(\t\x12\r\n\x05start\x18\x03 \x01(\x03\x12\x0b\n\x03\x65nd\x18\x04 \x01(\x03\x12\x0e\n\x06strand\x18\x05 \x01(\t\"\x89\x01\n\x07\x46\x65\x61ture\x12\x0c\n\x04name\x18\x01 \x01(\t\x12=\n\nattributes\x18\x04 \x03(\x0b\x32).bmeg.gaea.schema.Feature.AttributesEntry\x1a\x31\n\x0f\x41ttributesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\x16\n\x06\x44omain\x12\x0c\n\x04name\x18\x01 \x01(\t\"\xc1\x02\n\x11VariantCallEffect\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x1d\n\x15variantClassification\x18\x03 \x01(\t\x12\x1b\n\x13inDomainEdgesDomain\x18\x04 \x03(\t\x12\x1d\n\x15inFeatureEdgesFeature\x18\x05 \x03(\t\x12 \n\x18\x65\x66\x66\x65\x63tOfEdgesVariantCall\x18\x06 \x03(\t\x12\x0f\n\x07\x64\x62snpRS\x18\x07 \x01(\t\x12\x16\n\x0e\x64\x62snpValStatus\x18\x08 \x01(\t\x12;\n\x04info\x18\t \x03(\x0b\x32-.bmeg.gaea.schema.VariantCallEffect.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\x92\x03\n\x0bVariantCall\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x13\n\x0bvariantType\x18\x03 \x01(\t\x12\x17\n\x0freferenceAllele\x18\x04 \x01(\t\x12\x15\n\rnormalAllele1\x18\x05 \x01(\t\x12\x15\n\rnormalAllele2\x18\x06 \x01(\t\x12\x14\n\x0ctumorAllele1\x18\x07 \x01(\t\x12\x14\n\x0ctumorAllele2\x18\x08 \x01(\t\x12\x11\n\tsequencer\x18\t \x01(\t\x12\x1f\n\x17\x61tPositionEdgesPosition\x18\n \x03(\t\x12!\n\x19tumorSampleEdgesBiosample\x18\x0b \x03(\t\x12\"\n\x1anormalSampleEdgesBiosample\x18\x0c \x03(\t\x12\x35\n\x04info\x18\r \x03(\x0b\x32\'.bmeg.gaea.schema.VariantCall.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"o\n\tBiosample\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x0f\n\x07\x62\x61rcode\x18\x03 \x01(\t\x12\x12\n\nsampleType\x18\x04 \x01(\t\x12\x1f\n\x17sampleOfEdgesIndividual\x18\x05 \x03(\t\"\xa5\x01\n\nIndividual\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x44\n\x0cobservations\x18\x03 \x03(\x0b\x32..bmeg.gaea.schema.Individual.ObservationsEntry\x1a\x33\n\x11ObservationsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\xe0\x01\n\x0eGeneExpression\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x0f\n\x07\x62\x61rcode\x18\x03 \x01(\t\x12#\n\x1b\x65xpressionForEdgesBiosample\x18\x04 \x03(\t\x12\x46\n\x0b\x65xpressions\x18\x05 \x03(\x0b\x32\x31.bmeg.gaea.schema.GeneExpression.ExpressionsEntry\x1a\x32\n\x10\x45xpressionsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x01:\x02\x38\x01\"\x99\x01\n\x14PhenotypeAssociation\x12\x0c\n\x04name\x18\x01 \x01(\t\x12 \n\x18hasGenotypeEdgesGenotype\x18\x02 \x03(\t\x12-\n\ntheContext\x18\x03 \x01(\x0b\x32\x19.bmeg.gaea.schema.Context\x12\"\n\x1ahasPhenotypeEdgesPhenotype\x18\x04 \x03(\t\"O\n\tPhenotype\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x1f\n\x17isTypeEdgesOntologyTerm\x18\x02 \x03(\t\x12\x13\n\x0b\x64\x65scription\x18\x03 \x01(\t\":\n\x0cOntologyTerm\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0c\n\x04term\x18\x02 \x01(\t\x12\x0e\n\x06source\x18\x03 \x01(\t\"\xa6\x01\n\x08Genotype\x12\x0c\n\x04name\x18\x01 \x01(\t\x12%\n\x1disVariantCallEdgesVariantCall\x18\x02 \x03(\t\x12!\n\x19isBiosampleEdgesBiosample\x18\x03 \x03(\t\x12#\n\x1bisIndividualEdgesIndividual\x18\x04 \x03(\t\x12\x1d\n\x15isFeatureEdgesFeature\x18\x05 \x03(\t\"\xd9\x01\n\x07\x43ontext\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x1f\n\x17involvesModelEdgesModel\x18\x02 \x03(\t\x12\x1d\n\x15involvesDrugEdgesDrug\x18\x03 \x03(\t\x12 \n\x18hasEvidenceEdgesEvidence\x18\x04 \x03(\t\x12\x31\n\x04info\x18\x05 \x03(\x0b\x32#.bmeg.gaea.schema.Context.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\x87\x01\n\x08\x45vidence\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0c\n\x04pmid\x18\x02 \x03(\t\x12\x32\n\x04info\x18\x03 \x03(\x0b\x32$.bmeg.gaea.schema.Evidence.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\x83\x01\n\x04\x44rug\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x10\n\x08synonyms\x18\x02 \x03(\t\x12.\n\x04info\x18\x03 \x03(\x0b\x32 .bmeg.gaea.schema.Drug.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\x88\x02\n\x0fLinearSignature\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x10\n\x08predicts\x18\x02 \x01(\t\x12\x11\n\tphenotype\x18\x03 \x01(\t\x12\x10\n\x08quantile\x18\x04 \x03(\x01\x12\x11\n\tintercept\x18\x05 \x01(\x01\x12I\n\x0c\x63oefficients\x18\x06 \x03(\x0b\x32\x33.bmeg.gaea.schema.LinearSignature.CoefficientsEntry\x12\x1d\n\x15signatureForEdgesDrug\x18\x07 \x03(\t\x1a\x33\n\x11\x43oefficientsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x01:\x02\x38\x01\x62\x06proto3')
+  serialized_pb=_b('\n\x0csample.proto\x12\x10\x62meg.gaea.schema\"X\n\x08Position\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x12\n\nchromosome\x18\x02 \x01(\t\x12\r\n\x05start\x18\x03 \x01(\x03\x12\x0b\n\x03\x65nd\x18\x04 \x01(\x03\x12\x0e\n\x06strand\x18\x05 \x01(\t\"\x89\x01\n\x07\x46\x65\x61ture\x12\x0c\n\x04name\x18\x01 \x01(\t\x12=\n\nattributes\x18\x04 \x03(\x0b\x32).bmeg.gaea.schema.Feature.AttributesEntry\x1a\x31\n\x0f\x41ttributesEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\x16\n\x06\x44omain\x12\x0c\n\x04name\x18\x01 \x01(\t\"\xa9\x02\n\x11VariantCallEffect\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x1d\n\x15variantClassification\x18\x03 \x01(\t\x12\x15\n\rinDomainEdges\x18\x04 \x03(\t\x12\x16\n\x0einFeatureEdges\x18\x05 \x03(\t\x12\x15\n\reffectOfEdges\x18\x06 \x03(\t\x12\x0f\n\x07\x64\x62snpRS\x18\x07 \x01(\t\x12\x16\n\x0e\x64\x62snpValStatus\x18\x08 \x01(\t\x12;\n\x04info\x18\t \x03(\x0b\x32-.bmeg.gaea.schema.VariantCallEffect.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\xf8\x02\n\x0bVariantCall\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x13\n\x0bvariantType\x18\x03 \x01(\t\x12\x17\n\x0freferenceAllele\x18\x04 \x01(\t\x12\x15\n\rnormalAllele1\x18\x05 \x01(\t\x12\x15\n\rnormalAllele2\x18\x06 \x01(\t\x12\x14\n\x0ctumorAllele1\x18\x07 \x01(\t\x12\x14\n\x0ctumorAllele2\x18\x08 \x01(\t\x12\x11\n\tsequencer\x18\t \x01(\t\x12\x17\n\x0f\x61tPositionEdges\x18\n \x03(\t\x12\x18\n\x10tumorSampleEdges\x18\x0b \x03(\t\x12\x19\n\x11normalSampleEdges\x18\x0c \x03(\t\x12\x35\n\x04info\x18\r \x03(\x0b\x32\'.bmeg.gaea.schema.VariantCall.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"e\n\tBiosample\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x0f\n\x07\x62\x61rcode\x18\x03 \x01(\t\x12\x12\n\nsampleType\x18\x04 \x01(\t\x12\x15\n\rsampleOfEdges\x18\x05 \x03(\t\"\xa5\x01\n\nIndividual\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x44\n\x0cobservations\x18\x03 \x03(\x0b\x32..bmeg.gaea.schema.Individual.ObservationsEntry\x1a\x33\n\x11ObservationsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\xd7\x01\n\x0eGeneExpression\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0e\n\x06source\x18\x02 \x01(\t\x12\x0f\n\x07\x62\x61rcode\x18\x03 \x01(\t\x12\x1a\n\x12\x65xpressionForEdges\x18\x04 \x03(\t\x12\x46\n\x0b\x65xpressions\x18\x05 \x03(\x0b\x32\x31.bmeg.gaea.schema.GeneExpression.ExpressionsEntry\x1a\x32\n\x10\x45xpressionsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x01:\x02\x38\x01\"\xdf\x01\n\x14PhenotypeAssociation\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x18\n\x10hasGenotypeEdges\x18\x02 \x03(\t\x12\x19\n\x11hasPhenotypeEdges\x18\x03 \x03(\t\x12\x17\n\x0fhasContextEdges\x18\x04 \x03(\t\x12>\n\x04info\x18\x05 \x03(\x0b\x32\x30.bmeg.gaea.schema.PhenotypeAssociation.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"C\n\tPhenotype\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x13\n\x0bisTypeEdges\x18\x02 \x03(\t\x12\x13\n\x0b\x64\x65scription\x18\x03 \x01(\t\":\n\x0cOntologyTerm\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0c\n\x04term\x18\x02 \x01(\t\x12\x0e\n\x06source\x18\x03 \x01(\t\"\x87\x01\n\x08\x45vidence\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0c\n\x04pmid\x18\x02 \x03(\t\x12\x32\n\x04info\x18\x03 \x03(\x0b\x32$.bmeg.gaea.schema.Evidence.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\x83\x01\n\x04\x44rug\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x10\n\x08synonyms\x18\x02 \x03(\t\x12.\n\x04info\x18\x03 \x03(\x0b\x32 .bmeg.gaea.schema.Drug.InfoEntry\x1a+\n\tInfoEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\x84\x02\n\x0fLinearSignature\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x10\n\x08predicts\x18\x02 \x01(\t\x12\x11\n\tphenotype\x18\x03 \x01(\t\x12\x10\n\x08quantile\x18\x04 \x03(\x01\x12\x11\n\tintercept\x18\x05 \x01(\x01\x12I\n\x0c\x63oefficients\x18\x06 \x03(\x0b\x32\x33.bmeg.gaea.schema.LinearSignature.CoefficientsEntry\x12\x19\n\x11signatureForEdges\x18\x07 \x03(\t\x1a\x33\n\x11\x43oefficientsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\x01:\x02\x38\x01\x62\x06proto3')
 )
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
@@ -224,8 +224,8 @@ _VARIANTCALLEFFECT_INFOENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=567,
-  serialized_end=610,
+  serialized_start=543,
+  serialized_end=586,
 )
 
 _VARIANTCALLEFFECT = _descriptor.Descriptor(
@@ -257,21 +257,21 @@ _VARIANTCALLEFFECT = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='inDomainEdgesDomain', full_name='bmeg.gaea.schema.VariantCallEffect.inDomainEdgesDomain', index=3,
+      name='inDomainEdges', full_name='bmeg.gaea.schema.VariantCallEffect.inDomainEdges', index=3,
       number=4, type=9, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='inFeatureEdgesFeature', full_name='bmeg.gaea.schema.VariantCallEffect.inFeatureEdgesFeature', index=4,
+      name='inFeatureEdges', full_name='bmeg.gaea.schema.VariantCallEffect.inFeatureEdges', index=4,
       number=5, type=9, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='effectOfEdgesVariantCall', full_name='bmeg.gaea.schema.VariantCallEffect.effectOfEdgesVariantCall', index=5,
+      name='effectOfEdges', full_name='bmeg.gaea.schema.VariantCallEffect.effectOfEdges', index=5,
       number=6, type=9, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -311,7 +311,7 @@ _VARIANTCALLEFFECT = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=289,
-  serialized_end=610,
+  serialized_end=586,
 )
 
 
@@ -348,8 +348,8 @@ _VARIANTCALL_INFOENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=567,
-  serialized_end=610,
+  serialized_start=543,
+  serialized_end=586,
 )
 
 _VARIANTCALL = _descriptor.Descriptor(
@@ -423,21 +423,21 @@ _VARIANTCALL = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='atPositionEdgesPosition', full_name='bmeg.gaea.schema.VariantCall.atPositionEdgesPosition', index=9,
+      name='atPositionEdges', full_name='bmeg.gaea.schema.VariantCall.atPositionEdges', index=9,
       number=10, type=9, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='tumorSampleEdgesBiosample', full_name='bmeg.gaea.schema.VariantCall.tumorSampleEdgesBiosample', index=10,
+      name='tumorSampleEdges', full_name='bmeg.gaea.schema.VariantCall.tumorSampleEdges', index=10,
       number=11, type=9, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='normalSampleEdgesBiosample', full_name='bmeg.gaea.schema.VariantCall.normalSampleEdgesBiosample', index=11,
+      name='normalSampleEdges', full_name='bmeg.gaea.schema.VariantCall.normalSampleEdges', index=11,
       number=12, type=9, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -462,8 +462,8 @@ _VARIANTCALL = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=613,
-  serialized_end=1015,
+  serialized_start=589,
+  serialized_end=965,
 )
 
 
@@ -503,7 +503,7 @@ _BIOSAMPLE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='sampleOfEdgesIndividual', full_name='bmeg.gaea.schema.Biosample.sampleOfEdgesIndividual', index=4,
+      name='sampleOfEdges', full_name='bmeg.gaea.schema.Biosample.sampleOfEdges', index=4,
       number=5, type=9, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -521,8 +521,8 @@ _BIOSAMPLE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1017,
-  serialized_end=1128,
+  serialized_start=967,
+  serialized_end=1068,
 )
 
 
@@ -559,8 +559,8 @@ _INDIVIDUAL_OBSERVATIONSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1245,
-  serialized_end=1296,
+  serialized_start=1185,
+  serialized_end=1236,
 )
 
 _INDIVIDUAL = _descriptor.Descriptor(
@@ -603,8 +603,8 @@ _INDIVIDUAL = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1131,
-  serialized_end=1296,
+  serialized_start=1071,
+  serialized_end=1236,
 )
 
 
@@ -641,8 +641,8 @@ _GENEEXPRESSION_EXPRESSIONSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1473,
-  serialized_end=1523,
+  serialized_start=1404,
+  serialized_end=1454,
 )
 
 _GENEEXPRESSION = _descriptor.Descriptor(
@@ -674,7 +674,7 @@ _GENEEXPRESSION = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='expressionForEdgesBiosample', full_name='bmeg.gaea.schema.GeneExpression.expressionForEdgesBiosample', index=3,
+      name='expressionForEdges', full_name='bmeg.gaea.schema.GeneExpression.expressionForEdges', index=3,
       number=4, type=9, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -699,10 +699,47 @@ _GENEEXPRESSION = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1299,
-  serialized_end=1523,
+  serialized_start=1239,
+  serialized_end=1454,
 )
 
+
+_PHENOTYPEASSOCIATION_INFOENTRY = _descriptor.Descriptor(
+  name='InfoEntry',
+  full_name='bmeg.gaea.schema.PhenotypeAssociation.InfoEntry',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='key', full_name='bmeg.gaea.schema.PhenotypeAssociation.InfoEntry.key', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='value', full_name='bmeg.gaea.schema.PhenotypeAssociation.InfoEntry.value', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  options=_descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001')),
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=543,
+  serialized_end=586,
+)
 
 _PHENOTYPEASSOCIATION = _descriptor.Descriptor(
   name='PhenotypeAssociation',
@@ -719,22 +756,29 @@ _PHENOTYPEASSOCIATION = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='hasGenotypeEdgesGenotype', full_name='bmeg.gaea.schema.PhenotypeAssociation.hasGenotypeEdgesGenotype', index=1,
+      name='hasGenotypeEdges', full_name='bmeg.gaea.schema.PhenotypeAssociation.hasGenotypeEdges', index=1,
       number=2, type=9, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='theContext', full_name='bmeg.gaea.schema.PhenotypeAssociation.theContext', index=2,
-      number=3, type=11, cpp_type=10, label=1,
-      has_default_value=False, default_value=None,
+      name='hasPhenotypeEdges', full_name='bmeg.gaea.schema.PhenotypeAssociation.hasPhenotypeEdges', index=2,
+      number=3, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='hasPhenotypeEdgesPhenotype', full_name='bmeg.gaea.schema.PhenotypeAssociation.hasPhenotypeEdgesPhenotype', index=3,
+      name='hasContextEdges', full_name='bmeg.gaea.schema.PhenotypeAssociation.hasContextEdges', index=3,
       number=4, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='info', full_name='bmeg.gaea.schema.PhenotypeAssociation.info', index=4,
+      number=5, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -742,7 +786,7 @@ _PHENOTYPEASSOCIATION = _descriptor.Descriptor(
   ],
   extensions=[
   ],
-  nested_types=[],
+  nested_types=[_PHENOTYPEASSOCIATION_INFOENTRY, ],
   enum_types=[
   ],
   options=None,
@@ -751,8 +795,8 @@ _PHENOTYPEASSOCIATION = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1526,
-  serialized_end=1679,
+  serialized_start=1457,
+  serialized_end=1680,
 )
 
 
@@ -771,7 +815,7 @@ _PHENOTYPE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='isTypeEdgesOntologyTerm', full_name='bmeg.gaea.schema.Phenotype.isTypeEdgesOntologyTerm', index=1,
+      name='isTypeEdges', full_name='bmeg.gaea.schema.Phenotype.isTypeEdges', index=1,
       number=2, type=9, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -796,8 +840,8 @@ _PHENOTYPE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1681,
-  serialized_end=1760,
+  serialized_start=1682,
+  serialized_end=1749,
 )
 
 
@@ -841,163 +885,8 @@ _ONTOLOGYTERM = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1762,
-  serialized_end=1820,
-)
-
-
-_GENOTYPE = _descriptor.Descriptor(
-  name='Genotype',
-  full_name='bmeg.gaea.schema.Genotype',
-  filename=None,
-  file=DESCRIPTOR,
-  containing_type=None,
-  fields=[
-    _descriptor.FieldDescriptor(
-      name='name', full_name='bmeg.gaea.schema.Genotype.name', index=0,
-      number=1, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='isVariantCallEdgesVariantCall', full_name='bmeg.gaea.schema.Genotype.isVariantCallEdgesVariantCall', index=1,
-      number=2, type=9, cpp_type=9, label=3,
-      has_default_value=False, default_value=[],
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='isBiosampleEdgesBiosample', full_name='bmeg.gaea.schema.Genotype.isBiosampleEdgesBiosample', index=2,
-      number=3, type=9, cpp_type=9, label=3,
-      has_default_value=False, default_value=[],
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='isIndividualEdgesIndividual', full_name='bmeg.gaea.schema.Genotype.isIndividualEdgesIndividual', index=3,
-      number=4, type=9, cpp_type=9, label=3,
-      has_default_value=False, default_value=[],
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='isFeatureEdgesFeature', full_name='bmeg.gaea.schema.Genotype.isFeatureEdgesFeature', index=4,
-      number=5, type=9, cpp_type=9, label=3,
-      has_default_value=False, default_value=[],
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-  ],
-  extensions=[
-  ],
-  nested_types=[],
-  enum_types=[
-  ],
-  options=None,
-  is_extendable=False,
-  syntax='proto3',
-  extension_ranges=[],
-  oneofs=[
-  ],
-  serialized_start=1823,
-  serialized_end=1989,
-)
-
-
-_CONTEXT_INFOENTRY = _descriptor.Descriptor(
-  name='InfoEntry',
-  full_name='bmeg.gaea.schema.Context.InfoEntry',
-  filename=None,
-  file=DESCRIPTOR,
-  containing_type=None,
-  fields=[
-    _descriptor.FieldDescriptor(
-      name='key', full_name='bmeg.gaea.schema.Context.InfoEntry.key', index=0,
-      number=1, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='value', full_name='bmeg.gaea.schema.Context.InfoEntry.value', index=1,
-      number=2, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-  ],
-  extensions=[
-  ],
-  nested_types=[],
-  enum_types=[
-  ],
-  options=_descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001')),
-  is_extendable=False,
-  syntax='proto3',
-  extension_ranges=[],
-  oneofs=[
-  ],
-  serialized_start=567,
-  serialized_end=610,
-)
-
-_CONTEXT = _descriptor.Descriptor(
-  name='Context',
-  full_name='bmeg.gaea.schema.Context',
-  filename=None,
-  file=DESCRIPTOR,
-  containing_type=None,
-  fields=[
-    _descriptor.FieldDescriptor(
-      name='name', full_name='bmeg.gaea.schema.Context.name', index=0,
-      number=1, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='involvesModelEdgesModel', full_name='bmeg.gaea.schema.Context.involvesModelEdgesModel', index=1,
-      number=2, type=9, cpp_type=9, label=3,
-      has_default_value=False, default_value=[],
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='involvesDrugEdgesDrug', full_name='bmeg.gaea.schema.Context.involvesDrugEdgesDrug', index=2,
-      number=3, type=9, cpp_type=9, label=3,
-      has_default_value=False, default_value=[],
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='hasEvidenceEdgesEvidence', full_name='bmeg.gaea.schema.Context.hasEvidenceEdgesEvidence', index=3,
-      number=4, type=9, cpp_type=9, label=3,
-      has_default_value=False, default_value=[],
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='info', full_name='bmeg.gaea.schema.Context.info', index=4,
-      number=5, type=11, cpp_type=10, label=3,
-      has_default_value=False, default_value=[],
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-  ],
-  extensions=[
-  ],
-  nested_types=[_CONTEXT_INFOENTRY, ],
-  enum_types=[
-  ],
-  options=None,
-  is_extendable=False,
-  syntax='proto3',
-  extension_ranges=[],
-  oneofs=[
-  ],
-  serialized_start=1992,
-  serialized_end=2209,
+  serialized_start=1751,
+  serialized_end=1809,
 )
 
 
@@ -1034,8 +923,8 @@ _EVIDENCE_INFOENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=567,
-  serialized_end=610,
+  serialized_start=543,
+  serialized_end=586,
 )
 
 _EVIDENCE = _descriptor.Descriptor(
@@ -1078,8 +967,8 @@ _EVIDENCE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2212,
-  serialized_end=2347,
+  serialized_start=1812,
+  serialized_end=1947,
 )
 
 
@@ -1116,8 +1005,8 @@ _DRUG_INFOENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=567,
-  serialized_end=610,
+  serialized_start=543,
+  serialized_end=586,
 )
 
 _DRUG = _descriptor.Descriptor(
@@ -1160,8 +1049,8 @@ _DRUG = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2350,
-  serialized_end=2481,
+  serialized_start=1950,
+  serialized_end=2081,
 )
 
 
@@ -1198,8 +1087,8 @@ _LINEARSIGNATURE_COEFFICIENTSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2697,
-  serialized_end=2748,
+  serialized_start=2293,
+  serialized_end=2344,
 )
 
 _LINEARSIGNATURE = _descriptor.Descriptor(
@@ -1252,7 +1141,7 @@ _LINEARSIGNATURE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='signatureForEdgesDrug', full_name='bmeg.gaea.schema.LinearSignature.signatureForEdgesDrug', index=6,
+      name='signatureForEdges', full_name='bmeg.gaea.schema.LinearSignature.signatureForEdges', index=6,
       number=7, type=9, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -1270,8 +1159,8 @@ _LINEARSIGNATURE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=2484,
-  serialized_end=2748,
+  serialized_start=2084,
+  serialized_end=2344,
 )
 
 _FEATURE_ATTRIBUTESENTRY.containing_type = _FEATURE
@@ -1284,9 +1173,8 @@ _INDIVIDUAL_OBSERVATIONSENTRY.containing_type = _INDIVIDUAL
 _INDIVIDUAL.fields_by_name['observations'].message_type = _INDIVIDUAL_OBSERVATIONSENTRY
 _GENEEXPRESSION_EXPRESSIONSENTRY.containing_type = _GENEEXPRESSION
 _GENEEXPRESSION.fields_by_name['expressions'].message_type = _GENEEXPRESSION_EXPRESSIONSENTRY
-_PHENOTYPEASSOCIATION.fields_by_name['theContext'].message_type = _CONTEXT
-_CONTEXT_INFOENTRY.containing_type = _CONTEXT
-_CONTEXT.fields_by_name['info'].message_type = _CONTEXT_INFOENTRY
+_PHENOTYPEASSOCIATION_INFOENTRY.containing_type = _PHENOTYPEASSOCIATION
+_PHENOTYPEASSOCIATION.fields_by_name['info'].message_type = _PHENOTYPEASSOCIATION_INFOENTRY
 _EVIDENCE_INFOENTRY.containing_type = _EVIDENCE
 _EVIDENCE.fields_by_name['info'].message_type = _EVIDENCE_INFOENTRY
 _DRUG_INFOENTRY.containing_type = _DRUG
@@ -1304,8 +1192,6 @@ DESCRIPTOR.message_types_by_name['GeneExpression'] = _GENEEXPRESSION
 DESCRIPTOR.message_types_by_name['PhenotypeAssociation'] = _PHENOTYPEASSOCIATION
 DESCRIPTOR.message_types_by_name['Phenotype'] = _PHENOTYPE
 DESCRIPTOR.message_types_by_name['OntologyTerm'] = _ONTOLOGYTERM
-DESCRIPTOR.message_types_by_name['Genotype'] = _GENOTYPE
-DESCRIPTOR.message_types_by_name['Context'] = _CONTEXT
 DESCRIPTOR.message_types_by_name['Evidence'] = _EVIDENCE
 DESCRIPTOR.message_types_by_name['Drug'] = _DRUG
 DESCRIPTOR.message_types_by_name['LinearSignature'] = _LINEARSIGNATURE
@@ -1407,11 +1293,19 @@ _sym_db.RegisterMessage(GeneExpression)
 _sym_db.RegisterMessage(GeneExpression.ExpressionsEntry)
 
 PhenotypeAssociation = _reflection.GeneratedProtocolMessageType('PhenotypeAssociation', (_message.Message,), dict(
+
+  InfoEntry = _reflection.GeneratedProtocolMessageType('InfoEntry', (_message.Message,), dict(
+    DESCRIPTOR = _PHENOTYPEASSOCIATION_INFOENTRY,
+    __module__ = 'sample_pb2'
+    # @@protoc_insertion_point(class_scope:bmeg.gaea.schema.PhenotypeAssociation.InfoEntry)
+    ))
+  ,
   DESCRIPTOR = _PHENOTYPEASSOCIATION,
   __module__ = 'sample_pb2'
   # @@protoc_insertion_point(class_scope:bmeg.gaea.schema.PhenotypeAssociation)
   ))
 _sym_db.RegisterMessage(PhenotypeAssociation)
+_sym_db.RegisterMessage(PhenotypeAssociation.InfoEntry)
 
 Phenotype = _reflection.GeneratedProtocolMessageType('Phenotype', (_message.Message,), dict(
   DESCRIPTOR = _PHENOTYPE,
@@ -1426,28 +1320,6 @@ OntologyTerm = _reflection.GeneratedProtocolMessageType('OntologyTerm', (_messag
   # @@protoc_insertion_point(class_scope:bmeg.gaea.schema.OntologyTerm)
   ))
 _sym_db.RegisterMessage(OntologyTerm)
-
-Genotype = _reflection.GeneratedProtocolMessageType('Genotype', (_message.Message,), dict(
-  DESCRIPTOR = _GENOTYPE,
-  __module__ = 'sample_pb2'
-  # @@protoc_insertion_point(class_scope:bmeg.gaea.schema.Genotype)
-  ))
-_sym_db.RegisterMessage(Genotype)
-
-Context = _reflection.GeneratedProtocolMessageType('Context', (_message.Message,), dict(
-
-  InfoEntry = _reflection.GeneratedProtocolMessageType('InfoEntry', (_message.Message,), dict(
-    DESCRIPTOR = _CONTEXT_INFOENTRY,
-    __module__ = 'sample_pb2'
-    # @@protoc_insertion_point(class_scope:bmeg.gaea.schema.Context.InfoEntry)
-    ))
-  ,
-  DESCRIPTOR = _CONTEXT,
-  __module__ = 'sample_pb2'
-  # @@protoc_insertion_point(class_scope:bmeg.gaea.schema.Context)
-  ))
-_sym_db.RegisterMessage(Context)
-_sym_db.RegisterMessage(Context.InfoEntry)
 
 Evidence = _reflection.GeneratedProtocolMessageType('Evidence', (_message.Message,), dict(
 
@@ -1505,8 +1377,8 @@ _INDIVIDUAL_OBSERVATIONSENTRY.has_options = True
 _INDIVIDUAL_OBSERVATIONSENTRY._options = _descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001'))
 _GENEEXPRESSION_EXPRESSIONSENTRY.has_options = True
 _GENEEXPRESSION_EXPRESSIONSENTRY._options = _descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001'))
-_CONTEXT_INFOENTRY.has_options = True
-_CONTEXT_INFOENTRY._options = _descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001'))
+_PHENOTYPEASSOCIATION_INFOENTRY.has_options = True
+_PHENOTYPEASSOCIATION_INFOENTRY._options = _descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001'))
 _EVIDENCE_INFOENTRY.has_options = True
 _EVIDENCE_INFOENTRY._options = _descriptor._ParseOptions(descriptor_pb2.MessageOptions(), _b('8\001'))
 _DRUG_INFOENTRY.has_options = True

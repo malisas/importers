@@ -65,14 +65,6 @@ def process_row(state, source, row): #row is a namedtuple
     # create Biosample message for cancer cell line
     biosample_source = "CCLE"
     tumor_sample = find_biosample(state, biosample_source, ccl_name_CCLE, sample_type)
-    # and the corressponding Genotype message
-    # Create Genotype based on the Biosample
-    genotype_name = "genotype:" + tumor_sample.name
-    genotype = state['Genotype'].get(genotype_name)
-    if genotype is None:
-        genotype = schema.Genotype()
-        genotype.name = genotype_name
-        state['Genotype'][genotype_name] = genotype
     
     # Create OntologyTerm
     ontology_term_name = "ontologyTerm:" + "http://amigo.geneontology.org/amigo/term/GO:0042493"
@@ -91,61 +83,61 @@ def process_row(state, source, row): #row is a namedtuple
         state['Phenotype'][phenotype_name] = phenotype
 
     # create drug message for CTDD compound
-    drug_name = row.cpd_name # in the future might want to find canonical drug name via external resources
+    drug_name = "drug:" + row.cpd_name # in the future might want to find canonical drug name via external resources
     drug = state['Drug'].get(drug_name)
     if drug is None:
         drug = schema.Drug()
         drug.name = drug_name
-        drug.synonyms.append(row.broad_cpd_id)
-        drug.synonyms.append(row.cpd_smiles)
+        drug.synonyms.append("drug:" + row.cpd_name)
+        drug.synonyms.append("drug:" + row.broad_cpd_id)
+        drug.synonyms.append("drug:" + row.cpd_smiles)
         state['Drug'][drug_name] = drug
 
     # Create PhenotypeAssociation (which contains Context) based on the Drug
-    phenotype_association_name = "phenotypeAssociation:" + genotype.name + drug.name + phenotype.name
+    phenotype_association_name = "phenotypeAssociation:" + tumor_sample.name + drug.name + phenotype.name
     phenotype_association = state['PhenotypeAssociation'].get(phenotype_association_name)
     if phenotype_association is None:
         phenotype_association = schema.PhenotypeAssociation()
         phenotype_association.name = phenotype_association_name
-        #phenotype_association.theContext.name = "" #context is contained by the PhenotypeAssociation, not sure if it needs a unique name
-        phenotype_association.theContext.info['conc_pts_fit'] = str(row.conc_pts_fit)
-        phenotype_association.theContext.info['fit_num_param'] = str(row.fit_num_param)
-        phenotype_association.theContext.info['p1_conf_int_high'] = str(row.p1_conf_int_high)
-        phenotype_association.theContext.info['p1_conf_int_low'] = str(row.p1_conf_int_low)
-        phenotype_association.theContext.info['p2_conf_int_high'] = str(row.p2_conf_int_high)
-        phenotype_association.theContext.info['p2_conf_int_low'] = str(row.p2_conf_int_low)
-        phenotype_association.theContext.info['p4_conf_int_high'] = str(row.p4_conf_int_high)
-        phenotype_association.theContext.info['p4_conf_int_low'] = str(row.p4_conf_int_low)
-        phenotype_association.theContext.info['p1_center'] = str(row.p1_center)
-        phenotype_association.theContext.info['p2_slope'] = str(row.p2_slope)
-        phenotype_association.theContext.info['p3_total_decline'] = str(row.p3_total_decline)
-        phenotype_association.theContext.info['p4_baseline'] = str(row.p4_baseline)
-        phenotype_association.theContext.info['apparent_ec50_umol'] = str(row.apparent_ec50_umol)
-        phenotype_association.theContext.info['pred_pv_high_conc'] = str(row.pred_pv_high_conc)
-        phenotype_association.theContext.info['area_under_curve'] = str(row.area_under_curve)
-        phenotype_association.theContext.info['run_id'] = str(row.run_id)
-        phenotype_association.theContext.info['experiment_date'] = str(row.experiment_date)
-        phenotype_association.theContext.info['culture_media'] = str(row.culture_media)
-        phenotype_association.theContext.info['baseline_signal'] = str(row.baseline_signal)
-        phenotype_association.theContext.info['cells_per_well'] = str(row.cells_per_well)
-        phenotype_association.theContext.info['growth_mode'] = str(row.growth_mode)
-        phenotype_association.theContext.info['snp_fp_status'] = str(row.snp_fp_status)
-        phenotype_association.theContext.info['top_test_conc_umol'] = str(row.top_test_conc_umol)
-        phenotype_association.theContext.info['cpd_status'] = str(row.cpd_status)
-        phenotype_association.theContext.info['inclusion_rationale'] = str(row.inclusion_rationale)
-        phenotype_association.theContext.info['gene_symbol_of_protein_target'] = str(row.gene_symbol_of_protein_target)
-        phenotype_association.theContext.info['target_or_activity_of_compound'] = str(row.target_or_activity_of_compound)
-        phenotype_association.theContext.info['source_name'] = str(row.source_name)
-        phenotype_association.theContext.info['source_catalog_id'] = str(row.source_catalog_id)
-        phenotype_association.theContext.info['ccl_availability'] = str(row.ccl_availability)
-        phenotype_association.theContext.info['ccle_primary_hist'] = str(row.ccle_primary_hist)
-        phenotype_association.theContext.info['ccle_hist_subtype_1'] = str(row.ccle_hist_subtype_1)
+        phenotype_association.info['conc_pts_fit'] = str(row.conc_pts_fit)
+        phenotype_association.info['fit_num_param'] = str(row.fit_num_param)
+        phenotype_association.info['p1_conf_int_high'] = str(row.p1_conf_int_high)
+        phenotype_association.info['p1_conf_int_low'] = str(row.p1_conf_int_low)
+        phenotype_association.info['p2_conf_int_high'] = str(row.p2_conf_int_high)
+        phenotype_association.info['p2_conf_int_low'] = str(row.p2_conf_int_low)
+        phenotype_association.info['p4_conf_int_high'] = str(row.p4_conf_int_high)
+        phenotype_association.info['p4_conf_int_low'] = str(row.p4_conf_int_low)
+        phenotype_association.info['p1_center'] = str(row.p1_center)
+        phenotype_association.info['p2_slope'] = str(row.p2_slope)
+        phenotype_association.info['p3_total_decline'] = str(row.p3_total_decline)
+        phenotype_association.info['p4_baseline'] = str(row.p4_baseline)
+        phenotype_association.info['apparent_ec50_umol'] = str(row.apparent_ec50_umol)
+        phenotype_association.info['pred_pv_high_conc'] = str(row.pred_pv_high_conc)
+        phenotype_association.info['area_under_curve'] = str(row.area_under_curve)
+        phenotype_association.info['run_id'] = str(row.run_id)
+        phenotype_association.info['experiment_date'] = str(row.experiment_date)
+        phenotype_association.info['culture_media'] = str(row.culture_media)
+        phenotype_association.info['baseline_signal'] = str(row.baseline_signal)
+        phenotype_association.info['cells_per_well'] = str(row.cells_per_well)
+        phenotype_association.info['growth_mode'] = str(row.growth_mode)
+        phenotype_association.info['snp_fp_status'] = str(row.snp_fp_status)
+        phenotype_association.info['top_test_conc_umol'] = str(row.top_test_conc_umol)
+        phenotype_association.info['cpd_status'] = str(row.cpd_status)
+        phenotype_association.info['inclusion_rationale'] = str(row.inclusion_rationale)
+        phenotype_association.info['gene_symbol_of_protein_target'] = str(row.gene_symbol_of_protein_target)
+        phenotype_association.info['target_or_activity_of_compound'] = str(row.target_or_activity_of_compound)
+        phenotype_association.info['source_name'] = str(row.source_name)
+        phenotype_association.info['source_catalog_id'] = str(row.source_catalog_id)
+        phenotype_association.info['ccl_availability'] = str(row.ccl_availability)
+        phenotype_association.info['ccle_primary_hist'] = str(row.ccle_primary_hist)
+        phenotype_association.info['ccle_hist_subtype_1'] = str(row.ccle_hist_subtype_1)
         state['PhenotypeAssociation'][phenotype_association_name] = phenotype_association
 
     # make edges
-    append_unique(genotype.isBiosampleEdgesBiosample, tumor_sample.name)
-    append_unique(phenotype.isTypeEdgesOntologyTerm, ontology_term.name)
-    append_unique(phenotype_association.hasGenotypeEdgesGenotype, genotype.name)
-    append_unique(phenotype_association.hasPhenotypeEdgesPhenotype, phenotype.name)
+    append_unique(phenotype.isTypeEdges, ontology_term.name)
+    append_unique(phenotype_association.hasGenotypeEdges, tumor_sample.name)
+    append_unique(phenotype_association.hasPhenotypeEdges, phenotype.name)
+    append_unique(phenotype_association.hasContextEdges, drug.name)
 
     return state
 
@@ -206,7 +198,6 @@ def write_messages(state, outpath, format):
 
 def convert_to_profobuf(responsePath, metadrugPath, metacelllinePath, metaexperimentPath, outpath, format):
     state = {'Biosample': {},
-             'Genotype': {},
              'Drug': {},
              'OntologyTerm': {},
              'Phenotype': {},
